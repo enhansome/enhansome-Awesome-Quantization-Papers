@@ -1,1 +1,396 @@
-# enhansome-Awesome-Quantization-Papers
+# Awesome-Quantization-Papers with stars
+
+This repo contains a comprehensive paper list of **Model Quantization** for efficient deep learning on AI conferences/journals/arXiv. As a highlight, we categorize the papers in terms of model structures and application scenarios, and label the quantization methods with keywords. <br>
+
+This repo is being actively updated, and contributions in any form to make this list more comprehensive are welcome. Special thanks to collaborator [Zhikai Li](https://github.com/zkkli), and all researchers who have contributed to this repo! <br>
+
+If you find this repo useful, please consider **★STARing** and feel free to share it with others! <br>
+
+**\[Update: Mar, 2024]** Add new papers from ICLR-25. <br>
+**\[Update: Nov, 2024]** Add new papers from ECCV-24 and NeurIPS-24. <br>
+**\[Update: Sep, 2024]** Add new papers from ICML-24 and IJCAI-24. <br>
+**\[Update: Jul, 2024]** Add new papers from CVPR-24. <br>
+**\[Update: May, 2024]** Add new papers from ICLR-24. <br>
+**\[Update: Apr, 2024]** Add new papers from AAAI-24. <br>
+**\[Update: Nov, 2023]** Add new papers from NeurIPS-23. <br>
+**\[Update: Oct, 2023]** Add new papers from ICCV-23. <br>
+**\[Update: Jul, 2023]** Add new papers from AAAI-23 and ICML-23. <br>
+**\[Update: Jun, 2023]** Add new arXiv papers uploaded in May 2023, especially the hot LLM quantization field. <br>
+**\[Update: Jun, 2023]** Reborn this repo! New style, better experience! <br>
+
+***
+
+## Overview
+
+* [Awesome-Quantization-Papers ](#awesome-quantization-papers-)
+  * [Overview](#overview)
+  * [Survey](#survey)
+  * [Transformer-based Models](#transformer-based-models)
+    * [Language Transformers](#language-transformers)
+    * [Vision Transformers](#vision-transformers)
+    * [Visual Generation](#visual-generation)
+  * [Convolutional Neural Networks](#convolutional-neural-networks)
+    * [Visual Generation](#visual-generation-1)
+    * [Image Classification](#image-classification)
+    * [Other Tasks](#other-tasks)
+      * [Object Detection](#object-detection)
+      * [Super Resolution](#super-resolution)
+      * [Point Cloud](#point-cloud)
+  * [References](#references)
+
+**Keywords**: **`PTQ`**: post-training quantization | **`Non-uniform`**: non-uniform quantization | **`MP`**: mixed-precision quantization | **`Extreme`**: binary or ternary quantization
+
+***
+
+## Survey
+
+* "A Survey of Quantization Methods for Efficient Neural Network Inference", Book Chapter: Low-Power Computer Vision, 2021. \[[paper](https://arxiv.org/abs/2103.13630)]
+* "Full Stack Optimization of Transformer Inference: a Survey", arXiv, 2023. \[[paper](https://arxiv.org/abs/2302.14017)]
+* "A White Paper on Neural Network Quantization", arXiv, 2021. \[[paper](https://arxiv.org/abs/2106.08295)]
+* "Binary Neural Networks: A Survey", PR, 2020. \[[Paper](https://arxiv.org/abs/2004.03333)] \[**`Extreme`**]
+
+## Transformer-based Models
+
+### Language Transformers
+
+* "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] \[[code](https://github.com/microsoft/DeepSpeed) ⭐ 42,927 | 🐛 1,305 | 🌐 Python | 📅 2026-08-13] \[**`PTQ`**]
+* "QLoRA: Efficient Finetuning of Quantized LLMs", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71815)] \[[code](https://github.com/artidoro/qlora) ⭐ 10,988 | 🐛 206 | 🌐 Jupyter Notebook | 📅 2024-06-10]
+* "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale", NeurIPS, 2022. \[[paper](https://arxiv.org/abs/2208.07339)] \[[code](https://github.com/timdettmers/bitsandbytes) ⭐ 8,413 | 🐛 54 | 🌐 Python | 📅 2026-08-13]
+* "BinaryBERT: Pushing the Limit of BERT Quantization", ACL, 2021. \[[paper](https://arxiv.org/abs/2012.15701)] \[[code](https://github.com/huawei-noah/Pretrained-Language-Model) ⭐ 3,164 | 🐛 109 | 🌐 Python | 📅 2024-01-22] \[**`Extreme`**]
+* "TernaryBERT: Distillation-aware Ultra-low Bit BERT", EMNLP, 2020. \[[paper](https://arxiv.org/abs/2009.12812)] \[[code](https://github.com/huawei-noah/Pretrained-Language-Model) ⭐ 3,164 | 🐛 109 | 🌐 Python | 📅 2024-01-22] \[**`Extreme`**]
+* "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers", ICLR, 2023. \[[papar](https://arxiv.org/abs/2210.17323)]  \[[code](https://github.com/IST-DASLab/gptq) ⭐ 2,351 | 🐛 27 | 🌐 Python | 📅 2024-03-27] \[**`PTQ`**]
+* "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models", ICML, 2023. \[[paper](https://arxiv.org/abs/2211.10438)] \[[code](https://github.com/mit-han-lab/smoothquant) ⭐ 1,674 | 🐛 72 | 🌐 Python | 📅 2024-07-12] \[**`PTQ`**]
+* "I-BERT: Integer-only BERT Quantization", ICML, 2021. \[[paper](https://proceedings.mlr.press/v139/kim21d.html)] \[[code](https://github.com/kssteven418/I-BERT) ⭐ 270 | 🐛 28 | 🌐 Python | 📅 2023-01-29]
+* "Understanding and Overcoming the Challenges of Efficient Transformer Quantization", EMNLP, 2021. \[[paper](https://arxiv.org/abs/2109.12948)] \[[code](https://github.com/qualcomm-ai-research/transformer-quantization) ⭐ 213 | 🐛 2 | 🌐 Python | 📅 2021-11-09]
+* "RPTQ: Reorder-based Post-training Quantization for Large Language Models", arXiv, 2023. \[[paper](https://arxiv.org/abs/2304.01089)] \[[code](https://github.com/hahnyuan/rptq4llm) ⭐ 200 | 🐛 7 | 🌐 Python | 📅 2023-05-17] \[**`PTQ`**]
+* "BiT: Robustly Binarized Multi-distilled Transformer", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=55032)] \[[code](https://github.com/facebookresearch/bit) ⭐ 115 | 🐛 6 | 🌐 Python | 📅 2023-06-26] \[**`Extreme`**]
+* "BiBERT: Accurate Fully Binarized BERT", ICLR, 2022. \[[paper](https://openreview.net/forum?id=5xEgrl_5FAJ)] \[[code](https://github.com/htqin/BiBERT) ⭐ 89 | 🐛 3 | 🌐 Python | 📅 2023-06-02] \[**`Extreme`**]
+* "Outlier Suppression: Pushing the Limit of Low-bit Transformer Language Models", NeurIPS, 2022. [\[paper\]](https://arxiv.org/abs/2209.13325) \[[code](https://github.com/wimh966/outlier_suppression) ⭐ 50 | 🐛 0 | 🌐 Python | 📅 2022-10-05] \[**`PTQ`**]
+* "QIGen: Generating Efficient Kernels for Quantized Inference on Large Language Models", arXiv, 2023. \[[paper](https://arxiv.org/abs/2307.03738)] \[[code](https://github.com/IST-DASLab/QIGen) ⭐ 28 | 🐛 0 | 🌐 Python | 📅 2023-07-13]
+* "QuIP: 2-Bit Quantization of Large Language Models With Guarantees", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/69982)] \[[code](https://github.com/jerry-chee/QuIP) ⭐ 3 | 🐛 0 | 📅 2023-12-10] \[**`PTQ`**]
+* "CBQ: Cross-Block Quantization for Large Language Models", ICLR, 2025. \[[paper](https://iclr.cc/virtual/2025/poster/28924)]
+* "SpinQuant: LLM Quantization with Learned Rotations", ICLR, 2025. \[[paper](https://iclr.cc/virtual/2025/poster/28338)]
+* "LeanQuant: Accurate and Scalable Large Language Model Quantization with Loss-error-aware Grid", ICLR, 2025. \[[paper](https://iclr.cc/virtual/2025/poster/30168)]
+* "Q-VLM: Post-training Quantization for Large Vision-Language Models", NeurIPS, 2024. \[[paper](https://nips.cc/virtual/2024/poster/94107)]
+* "KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization", NeurIPS, 2024. \[[paper](https://nips.cc/virtual/2024/poster/96936)]
+* "QBB: Quantization with Binary Bases for LLMs", NeurIPS, 2024. \[[paper](https://nips.cc/virtual/2024/poster/95634)]
+* "DuQuant: Distributing Outliers via Dual Transformation Makes Stronger Quantized LLMs", NeurIPS, 2024. \[[paper](https://nips.cc/virtual/2024/poster/93727)]
+* "ZipCache: Accurate and Efficient KV Cache Quantization with Salient Token Identification", NeurIPS, 2024. \[[paper](https://nips.cc/virtual/2024/poster/96563)]
+* "KV Cache is 1 Bit Per Channel: Efficient Large Language Model Inference with Coupled Quantization", NeurIPS, 2024. \[[paper](https://nips.cc/virtual/2024/poster/93558)]
+* "Evaluating Quantized Large Language Models", ICML, 2024. \[[paper](https://openreview.net/forum?id=DKKg5EFAFr)]
+* "SqueezeLLM: Dense-and-Sparse Quantization", ICML, 2024. \[[paper](https://openreview.net/forum?id=0jpbpFia8m)] \[**`PTQ`**] \[**`Non-uniform`**]
+* "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache", ICML, 2024. \[[paper](https://openreview.net/forum?id=L057s2Rq8O)]
+* "LQER: Low-Rank Quantization Error Reconstruction for LLMs", ICML, 2024. \[[paper](https://openreview.net/forum?id=dh8k41g775)]
+* "Extreme Compression of Large Language Models via Additive Quantization", ICML, 2024. \[[paper](https://openreview.net/forum?id=5mCaITRTmO)]
+* "BiE: Bi-Exponent Block Floating-Point for Large Language Models Quantization", ICML, 2024. \[[paper](https://openreview.net/forum?id=DbyHDYslM7)]
+* "BiLLM: Pushing the Limit of Post-Training Quantization for LLMs", ICML, 2024. \[[paper](https://openreview.net/forum?id=qOl2WWOqFg)]
+* "Compressing Large Language Models by Joint Sparsification and Quantization", ICML, 2024. \[[paper](https://openreview.net/forum?id=sCGRhnuMUJ)]
+* "FrameQuant: Flexible Low-Bit Quantization for Transformers", ICML, 2024. \[[paper](https://openreview.net/forum?id=xPypr0kufs)] \[**`PTQ`**]
+* "OmniQuant: Omnidirectionally Calibrated Quantization for Large Language Models", ICLR, 2024. \[[paper](https://openreview.net/forum?id=8Wuvhh0LYW)]"
+* "LoftQ: LoRA-Fine-Tuning-aware Quantization for Large Language Models", ICLR, 2024. \[[paper](https://openreview.net/forum?id=LzPWWPAdY4)]
+* "SpQR: A Sparse-Quantized Representation for Near-Lossless LLM Weight Compression", ICLR, 2024. \[[paper](https://openreview.net/forum?id=Q1u25ahSuy)] \[**`PTQ`**]
+* "QA-LoRA: Quantization-Aware Low-Rank Adaptation of Large Language Models", ICLR, 2024. \[[paper](https://openreview.net/forum?id=WvFoJccpo8)]
+* "QLLM: Accurate and Efficient Low-Bitwidth Quantization for Large Language Models", ICLR, 2024. \[[paper](https://openreview.net/forum?id=FIplmUWdm3)] \[**`PTQ`**]
+* "PB-LLM: Partially Binarized Large Language Models", ICLR, 2024. \[[paper](https://openreview.net/forum?id=BifeBRhikU)] \[**`Extreme`**]
+* "AffineQuant: Affine Transformation Quantization for Large Language Models", ICLR, 2024. \[[paper](https://openreview.net/forum?id=of2rhALq8l)]
+* "Rethinking Channel Dimensions to Isolate Outliers for Low-bit Weight Quantization of Large Language Models", ICLR, 2024. \[[paper](https://openreview.net/forum?id=JzG7kSpjJk)]
+* "LUT-GEMM: Quantized Matrix Multiplication based on LUTs for Efficient Inference in Large-Scale Generative Language Models", ICLR, 2024. \[[paper](https://openreview.net/forum?id=gLARhFLE0F)]
+* "OWQ: Outlier-Aware Weight Quantization for Efficient Fine-Tuning and Inference of Large Language Models", AAAI, 2024. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29237)]
+* "Norm Tweaking: High-Performance Low-Bit Quantization of Large Language Models", AAAI, 2024. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29815)]
+* "Agile-Quant: Activation-Guided Quantization for Faster Inference of LLMs on the Edge", AAAI, 2024. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29860)]
+* "Exploring Post-training Quantization in LLMs from Comprehensive Study to Low Rank Compensation", AAAI, 2024. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29908)]  \[**`PTQ`**]
+* "What Makes Quantization for Large Language Model Hard? An Empirical Study from the Lens of Perturbation", AAAI, 2024. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29765)]
+* "EasyQuant: An Efficient Data-free Quantization Algorithm for LLMs", arXiv, 2024. \[[paper](http://arxiv.org/abs/2403.02775)]
+* "IntactKV: Improving Large Language Model Quantization by Keeping Pivot Tokens Intact", arXiv, 2024. \[[paper](http://arxiv.org/abs/2403.01241)]
+* "FlattenQuant: Breaking Through the Inference Compute-bound for Large Language Models with Per-tensor Quantization", arXiv, 2024. \[[paper](http://arxiv.org/abs/2402.17985)]
+* "A Comprehensive Evaluation of Quantization Strategies for Large Language Models", arXiv, 2024. \[[paper](http://arxiv.org/abs/2402.16775)]
+* "GPTVQ: The Blessing of Dimensionality for LLM Quantization", arXiv, 2024. \[[paper](http://arxiv.org/abs/2402.15319)]
+* "APTQ: Attention-aware Post-Training Mixed-Precision Quantization for Large Language Models", arXiv, 2024. \[[paper](http://arxiv.org/abs/2402.14866)]
+* "EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for the Acceleration of Lightweight LLMs on the Edge", arXiv, 2024. \[[paper](http://arxiv.org/abs/2402.10787)]
+* "RepQuant: Towards Accurate Post-Training Quantization of Large Transformer Models via Scale Reparameterization", arXiv, 2024. \[[paper](http://arxiv.org/abs/2402.05628)]
+* "Accurate LoRA-Finetuning Quantization of LLMs via Information Retention", arXiv, 2024. \[[paper](http://arxiv.org/abs/2402.05445)]
+* "KVQuant: Towards 10 Million Context Length LLM Inference with KV Cache Quantization", arXiv, 2023. \[[paper](http://arxiv.org/abs/2401.18079)]
+* "Extreme Compression of Large Language Models via Additive Quantization", arXiv, 2023. \[[paper](http://arxiv.org/abs/2401.06118)]
+* "ZeroQuant(4+2): Redefining LLMs Quantization with a New FP6-Centric Strategy for Diverse Generative Tasks", arXiv, 2023. \[[paper](http://arxiv.org/abs/2312.08583)] \[**`PTQ`**]
+* "CBQ: Cross-Block Quantization for Large Language Models", arXiv, 2023. \[[paper](http://arxiv.org/abs/2312.07950)] \[**`PTQ`**]
+* "FP8-BERT: Post-Training Quantization for Transformer", arXiv, 2023. \[[paper](http://arxiv.org/abs/2312.05725)] \[**`PTQ`**]
+* "Agile-Quant: Activation-Guided Quantization for Faster Inference of LLMs on the Edge", arXiv, 2023. \[[paper](http://arxiv.org/abs/2312.05693)]
+* "SmoothQuant+: Accurate and Efficient 4-bit Post-Training WeightQuantization for LLM", arXiv, 2023. \[[paper](http://arxiv.org/abs/2312.03788)] \[**`PTQ`**]
+* "A Speed Odyssey for Deployable Quantization of LLMs", arXiv, 2023. \[[paper](http://arxiv.org/abs/2311.09550)]
+* "AFPQ: Asymmetric Floating Point Quantization for LLMs", arXiv, 2023. \[[paper](http://arxiv.org/abs/2311.01792)]
+* "Enabling Fast 2-bit LLM on GPUs: Memory Alignment, Sparse Outlier, and Asynchronous Dequantization", arXiv, 2023. \[[paper](http://arxiv.org/abs/2311.16442)]
+* "Memory-Efficient Fine-Tuning of Compressed Large Language Models via sub-4-bit Integer Quantization", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/72931)]
+* "QFT: Quantized Full-parameter Tuning of LLMs with Affordable Resources", arXiv, 2023. \[[paper](https://arxiv.org/abs/2310.07147)]
+* "QMoE: Practical Sub-1-Bit Compression of Trillion-Parameter Models", arXiv, 2023. \[[paper](http://arxiv.org/abs/2310.16795)]
+* "Atom: Low-bit Quantization for Efficient and Accurate LLM Serving", arXiv, 2023. \[[paper](http://arxiv.org/abs/2310.19102)]
+* "ZeroQuant-HERO: Hardware-Enhanced Robust Optimized Post-Training Quantization Framework for W8A8 Transformers", arXiv, 2023. \[[paper](http://arxiv.org/abs/2310.17723)]
+* "LLM-FP4: 4-Bit Floating-Point Quantized Transformers", arXiv, 2023. \[[paper](https://arxiv.org/abs/2310.16836)]
+* "TEQ: Trainable Equivalent Transformation for Quantization of LLMs", arXiv, 2023. \[[paper](http://arxiv.org/abs/2310.10944)]
+* "Efficient Post-training Quantization with FP8 Formats", arXiv, 2023. \[[paper](http://arxiv.org/abs/2309.14592)]
+* "Probabilistic Weight Fixing: Large-scale training of neural network weight uncertainties for quantization", arXiv, 2023. \[[paper](http://arxiv.org/abs/2309.13575)]
+* "Optimize Weight Rounding via Signed Gradient Descent for the Quantization of LLMs", arXiv, 2023. \[[paper](http://arxiv.org/abs/2309.05516)]
+* "Norm Tweaking: High-performance Low-bit Quantization of Large Language Models", arXiv, 2023. \[[paper](http://arxiv.org/abs/2309.02784)]
+* "Understanding the Impact of Post-Training Quantization on Large Language Models", arXiv, 2023. \[[paper](http://arxiv.org/abs/2309.05210)]
+* "QuantEase: Optimization-based Quantization for Language Models -- An Efficient and Intuitive Algorithm", arXiv, 2023. \[[paper](http://arxiv.org/abs/2309.01885)]
+* "FPTQ: Fine-grained Post-Training Quantization for Large Language Models", arXiv, 2023. \[[paper](http://arxiv.org/abs/2308.15987)]
+* "FineQuant: Unlocking Efficiency with Fine-Grained Weight-Only Quantization for LLMs", arXiv, 2023. \[[paper](http://arxiv.org/abs/2308.09723)] \[**`PTQ`**]
+* "Gradient-Based Post-Training Quantization: Challenging the Status Quo", arXiv, 2023. \[[paper](http://arxiv.org/abs/2308.07662)] \[**`PTQ`**]
+* "NUPES : Non-Uniform Post-Training Quantization via Power Exponent Search", arXiv, 2023. \[[paper](http://arxiv.org/abs/2308.05600)] \[**`Non-uniform`**]
+* "ZeroQuant-FP: A Leap Forward in LLMs Post-Training W4A8 Quantization Using Floating-Point Formats", arXiv, 2023. \[[paper](http://arxiv.org/abs/2307.09782)]
+* "Self-Distilled Quantization: Achieving High Compression Rates in Transformer-Based Language Models", arXiv, 2023. \[[paper](http://arxiv.org/abs/2307.05972)]
+* "Do Emergent Abilities Exist in Quantized Large Language Models: An Empirical Study", arXiv, 2023. \[[paper](https://arxiv.org/abs/2307.08072)]
+* "INT2.1: Towards Fine-Tunable Quantized Large Language Models with Error Correction through Low-Rank Adaptation", arXiv, 2023. \[[paper](https://arxiv.org/abs/2306.08162)]
+* "OWQ: Lessons learned from activation outliers for weight quantization in large language models", arXiv, 2023. \[[paper](http://arxiv.org/abs/2306.02272)] \[**`PTQ`**]
+* "PreQuant: A Task-agnostic Quantization Approach for Pre-trained Language Models", arXiv, 2023. \[[paper](http://arxiv.org/abs/2306.00014)]
+* "AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration", arXiv, 2023. \[[paper](https://arxiv.org/abs/2306.00978)] \[**`PTQ`**]
+* "LLM-QAT: Data-Free Quantization Aware Training for Large Language Models", arXiv, 2023. \[[paper](https://arxiv.org/abs/2305.17888)]
+* "Outlier Suppression+: Accurate quantization of large language models by equivalent and optimal shifting and scaling", arXiv, 2023. \[[paper](https://arxiv.org/abs/2304.09145)] \[**`PTQ`**]
+* "The case for 4-bit precision: k-bit Inference Scaling Laws", ICML, 2023. \[[paper](https://openreview.net/forum?id=i8tGb1ab1j)]
+* "Quantized Distributed Training of Large Models with Convergence Guarantees", ICML, 2023. \[[paper](https://openreview.net/forum?id=Nqp8A5IDzq)]
+* "Understanding Int4 Quantization for Language Models: Latency Speedup, Composability, and Failure Cases", ICML, 2023. \[[paper](https://openreview.net/forum?id=q1WGm3hItW)]
+* "Towards Efficient Post-training Quantization of Pre-trained Language Models", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=53407)] \[**`PTQ`**]
+* "Compression of Generative Pre-trained Language Models via Quantization", ACL, 2022. \[[paper](https://aclanthology.org/2022.acl-long.331)]
+* "On the Distribution, Sparsity, and Inference-time Quantization of Attention Values in Transformers", ACL, 2021. \[[paper](https://aclanthology.org/2021.findings-acl.363)]
+* "KDLSQ-BERT: A Quantized Bert Combining Knowledge Distillation with Learned Step Size Quantization", arXiv, 2021. \[[paper](https://arxiv.org/abs/2101.05938)]
+* "Extremely Low Bit Transformer Quantization for On-Device Neural Machine Translation", EMNLP, 2020. \[[paper](https://aclanthology.org/2020.findings-emnlp.433/)]
+* "GOBO: Quantizing Attention-Based NLP Models for Low Latency and Energy Efficient Inference", MICRO, 2020. \[[paper](https://arxiv.org/abs/2005.03842)]
+* "Towards Fully 8-bit Integer Inference for the Transformer Model", IJCAI, 2020. \[[paper](https://www.ijcai.org/Proceedings/2020/0520.pdf)]
+* "Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT", AAAI, 2020. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/download/6409/6265)]
+* "Efficient 8-Bit Quantization of Transformer Neural Machine Language Translation Model", ICML, 2019. \[[paper](https://arxiv.org/abs/1906.00532)]
+* "Q8BERT: Quantized 8Bit BERT", EMC2 Workshop, 2019. \[[paper](https://www.emc2-ai.org/assets/docs/neurips-19/emc2-neurips19-paper-31.pdf)]
+
+\[[Back to Overview](#overview)]
+
+### Vision Transformers
+
+* "FQ-ViT: Post-Training Quantization for Fully Quantized Vision Transformer", IJCAI, 2022. \[[paper](https://arxiv.org/abs/2111.13824)]  \[[code](https://github.com/megvii-research/FQ-ViT) ⭐ 360 | 🐛 11 | 🌐 Python | 📅 2023-04-11]  \[**`PTQ`**]
+* "PTQ4ViT: Post-Training Quantization for Vision Transformers with Twin Uniform Quantization", ECCV, 2022. \[[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136720190.pdf)] \[[code](https://github.com/hahnyuan/ptq4vit) ⭐ 245 | 🐛 19 | 🌐 Python | 📅 2022-07-19]  \[**`PTQ`**]
+* "I-ViT: Integer-only Quantization for Efficient Vision Transformer Inference", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_I-ViT_Integer-only_Quantization_for_Efficient_Vision_Transformer_Inference_ICCV_2023_paper.pdf)] \[[code](https://github.com/zkkli/I-ViT) ⭐ 207 | 🐛 13 | 🌐 Python | 📅 2024-09-02]
+* "RepQ-ViT: Scale Reparameterization for Post-Training Quantization of Vision Transformers", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_RepQ-ViT_Scale_Reparameterization_for_Post-Training_Quantization_of_Vision_Transformers_ICCV_2023_paper.pdf)] \[[code](https://github.com/zkkli/RepQ-ViT) ⭐ 146 | 🐛 8 | 🌐 Python | 📅 2024-01-10] \[**`PTQ`**]
+* "Patch Similarity Aware Data-Free Quantization for Vision Transformers", ECCV, 2022. \[[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710154.pdf)] \[[code](https://github.com/zkkli/psaq-vit) ⭐ 125 | 🐛 3 | 🌐 Python | 📅 2022-12-22]  \[**`PTQ`**]
+* "Q-ViT: Accurate and Fully Quantized Low-bit Vision Transformer", NeurIPS, 2022. \[[paper](https://openreview.net/forum?id=fU-m9kQe0ke)] \[[code](https://github.com/yanjingli0202/q-vit) ⭐ 106 | 🐛 14 | 🌐 Python | 📅 2023-05-22]
+* "Oscillation-free Quantization for Low-bit Vision Transformers", ICML, 2023. \[[paper](https://openreview.net/forum?id=DihXH24AdY)] \[[code](https://github.com/nbasyl/OFQ) ⭐ 39 | 🐛 2 | 🌐 Python | 📅 2023-10-03]
+* "CLAMP-ViT: Contrastive Data-Free Learning for Adaptive Post-Training Quantization of ViTs", ECCV, 2024. \[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8434_ECCV_2024_paper.php)] \[**`PTQ`**]
+* "AdaLog: Post-Training Quantization for Vision Transformers with Adaptive Logarithm Quantizer", ECCV, 2024. \[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3969_ECCV_2024_paper.php)]  \[**`PTQ`**]
+* "PQ-SAM: Post-training Quantization for Segment Anything Model", ECCV, 2024. \[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1627_ECCV_2024_paper.php)]  \[**`PTQ`**]
+* "ERQ: Error Reduction for Post-Training Quantization of Vision Transformers", ICML, 2024. \[[paper](https://openreview.net/forum?id=jKUWlgra9b)] \[**`PTQ`**]
+* "Outlier-aware Slicing for Post-Training Quantization in Vision Transformer", ICML, 2024. \[[paper](https://openreview.net/forum?id=Uh5XN9d2J4)] \[**`PTQ`**]
+* "PTQ4SAM: Post-Training Quantization for Segment Anything", CVPR, 2024. \[[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Lv_PTQ4SAM_Post-Training_Quantization_for_Segment_Anything_CVPR_2024_paper.html)] \[**`PTQ`**]
+* "Instance-Aware Group Quantization for Vision Transformers", CVPR, 2024. \[[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Moon_Instance-Aware_Group_Quantization_for_Vision_Transformers_CVPR_2024_paper.html)] \[**`PTQ`**]
+* "Bi-ViT: Pushing the Limit of Vision Transformer Quantization", AAAI, 2024. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28109)] \[**`Extreme`**]
+* "AQ-DETR: Low-Bit Quantized Detection Transformer with Auxiliary Queries", AAAI, 2024. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29487)]
+* "LRP-QViT: Mixed-Precision Vision Transformer Quantization via Layer-wise Relevance Propagation", arXiv, 2023. \[[paper](http://arxiv.org/abs/2401.11243)] \[**`PTQ`**] \[**`MP`**]
+* "MPTQ-ViT: Mixed-Precision Post-Training Quantization for Vision Transformer", arXiv, 2023. \[[paper](http://arxiv.org/abs/2401.14895)] \[**`PTQ`**] \[**`MP`**]
+* "QD-BEV: Quantization-aware View-guided Distillation for Multi-view 3D Object Detection", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Zhang_QD-BEV__Quantization-aware_View-guided_Distillation_for_Multi-view_3D_Object_Detection_ICCV_2023_paper.pdf)]
+* "BiViT: Extremely Compressed Binary Vision Transformers", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/He_BiViT_Extremely_Compressed_Binary_Vision_Transformers_ICCV_2023_paper.pdf)] \[**`Extreme`**]
+* "Jumping through Local Minima: Quantization in the Loss Landscape of Vision Transformers", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Frumkin_Jumping_through_Local_Minima_Quantization_in_the_Loss_Landscape_of_ICCV_2023_paper.pdf)]
+* "PackQViT: Faster Sub-8-bit Vision Transformers via Full and Packed Quantization on the Mobile", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71880)]
+* "PSAQ-ViT V2: Towards Accurate and General Data-Free Quantization for Vision Transformers", TNNLS, 2023. \[[paper](https://arxiv.org/abs/2209.05687)]
+* "Variation-aware Vision Transformer Quantization", arXiv, 2023. \[[paper](http://arxiv.org/abs/2307.00331)]
+* "NoisyQuant: Noisy Bias-Enhanced Post-Training Activation Quantization for Vision Transformers", CVPR, 2023. \[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_NoisyQuant_Noisy_Bias-Enhanced_Post-Training_Activation_Quantization_for_Vision_Transformers_CVPR_2023_paper.pdf)]  \[**`PTQ`**]
+* "Boost Vision Transformer with GPU-Friendly Sparsity and Quantization", CVPR, 2023. \[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Yu_Boost_Vision_Transformer_With_GPU-Friendly_Sparsity_and_Quantization_CVPR_2023_paper.pdf)]
+* "Q-DETR: An Efficient Low-Bit Quantized Detection Transformer", CVPR, 2023. \[[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Xu_Q-DETR_An_Efficient_Low-Bit_Quantized_Detection_Transformer_CVPR_2023_paper.html)]
+* "Output Sensitivity-Aware DETR Quantization", 2023. \[[paper](https://practical-dl.github.io/2023/extended_abstract/4/CameraReady/4.pdf)]
+* "Q-HyViT: Post-Training Quantization for Hybrid Vision Transformer with Bridge Block Reconstruction", arXiv, 2023. \[[paper](https://arxiv.org/abs/2303.12557)]  \[**`PTQ`**]
+* "Q-ViT: Fully Differentiable Quantization for Vision Transformer", arXiv, 2022. \[[paper](https://arxiv.org/pdf/2201.07703.pdf)]
+* "Post-Training Quantization for Vision Transformer", NeurIPS, 2021. \[[paper](https://openreview.net/forum?id=9TX5OsKJvm)]  \[**`PTQ`**]
+
+\[[Back to Overview](#overview)]
+
+### Visual Generation
+
+* "SVDQuant: Absorbing Outliers by Low-Rank Component for 4-Bit Diffusion Models", ICLR, 2025. \[[paper](https://iclr.cc/virtual/2025/poster/27906)]
+* "ViDiT-Q: Efficient and Accurate Quantization of Diffusion Transformers for Image and Video Generation", ICLR, 2025. \[[paper](https://iclr.cc/virtual/2025/poster/30429)]
+* "DGQ: Distribution-Aware Group Quantization for Text-to-Image Diffusion Models", ICLR, 2025. \[[paper](https://iclr.cc/virtual/2025/poster/29192)]
+* "PTQ4DiT: Post-training Quantization for Diffusion Transformers", NeurIPS, 2024. \[[paper](https://nips.cc/virtual/2024/poster/95445)] \[**`PTQ`**]
+
+\[[Back to Overview](#overview)]
+
+## Convolutional Neural Networks
+
+### Visual Generation
+
+* "BiDM: Pushing the Limit of Quantization for Diffusion Models", NeurIPS, 2024. \[[paper](https://nips.cc/virtual/2024/poster/93620)]
+* "BitsFusion: 1.99 bits Weight Quantization of Diffusion Model", NeurIPS, 2024. \[[paper](https://nips.cc/virtual/2024/poster/96909)]
+* "Timestep-Aware Correction for Quantized Diffusion Models", ECCV, 2024. \[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8312_ECCV_2024_paper.php)]
+* "Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models", ECCV, 2024. \[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7353_ECCV_2024_paper.php)]  \[**`PTQ`**]
+* "Memory-Efficient Fine-Tuning for Quantized Diffusion Model", ECCV, 2024. \[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2494_ECCV_2024_paper.php)]
+* "MixDQ: Memory-Efficient Few-Step Text-to-Image Diffusion Models with Metric-Decoupled Mixed Precision Quantization", ECCV, 2024. \[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2212_ECCV_2024_paper.php)]
+* "TFMQ-DM: Temporal Feature Maintenance Quantization for Diffusion Models", CVPR, 2024. \[[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Huang_TFMQ-DM_Temporal_Feature_Maintenance_Quantization_for_Diffusion_Models_CVPR_2024_paper.html)] \[**`PTQ`**]
+* "Towards Accurate Post-training Quantization for Diffusion Models", CVPR, 2024. \[[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Wang_Towards_Accurate_Post-training_Quantization_for_Diffusion_Models_CVPR_2024_paper.html)] \[**`PTQ`**]
+* "EfficientDM: Efficient Quantization-Aware Fine-Tuning of Low-Bit Diffusion Models", ICLR, 2024. \[[paper](https://openreview.net/forum?id=UmMa3UNDAz)]
+* "QuEST: Low-bit Diffusion Model Quantization via Efficient Selective Finetuning", arXiv, 2024. \[[paper](http://arxiv.org/abs/2402.03666)]
+* "Enhanced Distribution Alignment for Post-Training Quantization of Diffusion Models", arXiv, 2023. \[[paper](http://arxiv.org/abs/2401.04585)]
+* "Efficient Quantization Strategies for Latent Diffusion Models", arXiv, 2023. \[[paper](http://arxiv.org/abs/2312.05431)] \[**`PTQ`**]
+* "Post-training Quantization with Progressive Calibration and Activation Relaxing for Text-to-Image Diffusion Models", arXiv, 2023. \[[paper](http://arxiv.org/abs/2311.06322)]
+* "Effective Quantization for Diffusion Models on CPUs", arXiv, 2023. \[[paper](http://arxiv.org/abs/2311.16133)]
+* "PTQD: Accurate Post-Training Quantization for Diffusion Models", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71314)] \[**`PTQ`**]
+* "Q-DM: An Efficient Low-bit Quantized Diffusion Model", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/70279)]
+* "Temporal Dynamic Quantization for Diffusion Models", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/72396)]
+* "Q-diffusion: Quantizing Diffusion Models", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)] \[[code](https://github.com/Xiuyu-Li/q-diffusion) ⭐ 379 | 🐛 24 | 🌐 Python | 📅 2024-03-21] \[**`PTQ`**]
+* "Towards Accurate Data-free Quantization for Diffusion Models", arXiv, 2023. \[[paper](http://arxiv.org/abs/2305.18723)] \[**`PTQ`**]
+* "Post-training Quantization on Diffusion Models", CVPR, 2023. \[[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.html)] \[[code](https://https//github.com/42Shawn/PTQ4DM)] \[**`PTQ`**]
+
+\[[Back to Overview](#overview)]
+
+### Image Classification
+
+* "8-bit Optimizers via Block-wise Quantization", ICLR, 2022. \[[paper](https://openreview.net/forum?id=shpkpVXzo3h)] \[[code](https://github.com/facebookresearch/bitsandbytes) ⚠️ Archived]
+* "HAWQ-V3: Dyadic Neural Network Quantization", ICML, 2021. \[[paper](https://proceedings.mlr.press/v139/yao21a.html)] \[[code](https://github.com/Zhen-Dong/HAWQ) ⭐ 464 | 🐛 26 | 🌐 Python | 📅 2023-05-15] \[**`MP`**]
+* "HAQ: Hardware-Aware Automated Quantization with Mixed Precision", CVPR, 2019. \[[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_HAQ_Hardware-Aware_Automated_Quantization_With_Mixed_Precision_CVPR_2019_paper.pdf)] \[[code](https://github.com/mit-han-lab/haq) ⭐ 408 | 🐛 20 | 🌐 Python | 📅 2021-02-26] \[**`MP`**]
+* "BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction", ICLR, 2021. \[[paper](https://openreview.net/forum?id=POWv6hDd9XH)] \[[code](https://github.com/yhhhli/BRECQ) ⭐ 300 | 🐛 28 | 🌐 Python | 📅 2021-08-01]  \[**`PTQ`**]
+* "ZeroQ: A Novel Zero Shot Quantization Framework", CVPR, 2020. \[[paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Cai_ZeroQ_A_Novel_Zero_Shot_Quantization_Framework_CVPR_2020_paper.html)] \[[code](https://github.com/amirgholami/ZeroQ) ⭐ 281 | 🐛 17 | 🌐 Python | 📅 2023-12-08]  \[**`PTQ`**]
+* "ActNN: Reducing Training Memory Footprint via 2-Bit Activation Compressed Training", ICML, 2021. \[[paper](https://proceedings.mlr.press/v139/chen21z.html)] \[[code](https://github.com/ucbrise/actnn) ⭐ 199 | 🐛 8 | 🌐 Python | 📅 2022-12-22]
+* "FP8 Quantization: The Power of the Exponent", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=53073)] \[[code](https://github.com/qualcomm-ai-research/fp8-quantization) ⭐ 173 | 🐛 6 | 🌐 Python | 📅 2023-03-09]
+* "Permute, Quantize, and Fine-tune: Efficient Compression of Neural Networks.", CVPR, 2021. \[[paper](https://arxiv.org/abs/2010.15703)] \[[code](https://github.com/uber-research/permute-quantize-finetune) ⭐ 146 | 🐛 2 | 🌐 Python | 📅 2021-08-14]
+* "Nonuniform-to-Uniform Quantization: Towards Accurate Quantization via Generalized Straight-Through Estimation", CVPR, 2022. \[[paper](https://arxiv.org/abs/2111.14826)] \[[code](https://github.com/liuzechun/Nonuniform-to-Uniform-Quantization) ⭐ 139 | 🐛 6 | 🌐 Python | 📅 2022-04-28] \[**`Non-uniform`**]
+* "Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=53412)] \[[code](https://github.com/ist-daslab/obc) ⭐ 133 | 🐛 3 | 🌐 Python | 📅 2023-07-11]  \[**`PTQ`**]
+* "QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization", ICLR, 2022. \[[paper](https://openreview.net/forum?id=ySQH0oDyp7)] \[[code](https://github.com/wimh966/QDrop) ⭐ 132 | 🐛 0 | 🌐 Python | 📅 2025-09-23]  \[**`PTQ`**]
+* "SQuant: On-the-Fly Data-Free Quantization via Diagonal Hessian Approximation", ICLR, 2022. \[[paper](https://openreview.net/forum?id=JXhROKNZzOc)] \[[code](https://github.com/clevercool/SQuant) ⭐ 131 | 🐛 1 | 🌐 Python | 📅 2022-09-27]  \[**`PTQ`**]
+* "Network Quantization with Element-wise Gradient Scaling", CVPR, 2021. \[[paper](https://arxiv.org/abs/2104.00903)] \[[code](https://github.com/cvlab-yonsei/EWGS) ⭐ 97 | 🐛 7 | 🌐 Python | 📅 2023-07-14]
+* "Overcoming Oscillations in Quantization-Aware Training", ICML, 2022. \[[paper](https://proceedings.mlr.press/v162/nagel22a/nagel22a.pdf)] \[[code](https://github.com/qualcomm-ai-research/oscillations-qat) ⭐ 82 | 🐛 5 | 🌐 Python | 📅 2022-07-21]
+* "Mixed-Precision Neural Network Quantization via Learned Layer-Wise Importance", ECCV, 2022. \[[paper](https://arxiv.org/abs/2203.08368)] \[[Code](https://github.com/1hunters/LIMPQ) ⭐ 62 | 🐛 3 | 🌐 Python | 📅 2023-03-19] \[[code](https://github.com/1hunters/LIMPQ) ⭐ 62 | 🐛 3 | 🌐 Python | 📅 2023-03-19] \[**`MP`**]
+* "How Do Adam and Training Strategies Help BNNs Optimization?", ICML, 2021. \[[paper](http://proceedings.mlr.press/v139/liu21t/liu21t.pdf)] \[[code](https://github.com/liuzechun/AdamBNN) ⭐ 59 | 🐛 5 | 🌐 Python | 📅 2021-06-23]
+* "Multi-Prize Lottery Ticket Hypothesis: Finding Accurate Binary Neural Networks by Pruning A Randomly Weighted Network", ICLR, 2021. \[[paper](https://openreview.net/forum?id=U_mat0b9iv)] \[[code](https://github.com/chrundle/biprop) ⭐ 51 | 🐛 2 | 🌐 Python | 📅 2022-02-24] \[**`Extreme`**]
+* "Few-bit Backward: Quantized Gradients of Activation Functions for Memory Footprint Reduction", ICML, 2023. \[[paper](https://openreview.net/forum?id=m2S96Qf2R3)] \[[code](https://github.com/SkoltechAI/fewbit) ⭐ 45 | 🐛 0 | 🌐 Python | 📅 2023-07-26]
+* "GACT: Activation Compressed Training for Generic Network Architectures", ICML, 2022. \[[paper](https://proceedings.mlr.press/v162/liu22v.html)] \[[code](https://github.com/LiuXiaoxuanPKU/GACT-ICML) ⭐ 45 | 🐛 1 | 🌐 Python | 📅 2022-11-01]
+* "Learnable Lookup Table for Neural Network Quantization", CVPR, 2022. \[[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Learnable_Lookup_Table_for_Neural_Network_Quantization_CVPR_2022_paper.pdf)] \[[code](https://github.com/The-Learning-And-Vision-Atelier-LAVA/LLT) ⭐ 44 | 🐛 3 | 🌐 Python | 📅 2022-10-06] \[**`Non-uniform`**]
+* "BSQ: Exploring Bit-Level Sparsity for Mixed-Precision Neural Network Quantization", ICLR, 2021. \[[paper](https://openreview.net/forum?id=TiXl51SCNw8)] \[[code](https://github.com/yanghr/BSQ) ⭐ 41 | 🐛 4 | 🌐 Python | 📅 2021-01-12] \[**`MP`**]
+* "IntraQ: Learning Synthetic Images With Intra-Class Heterogeneity for Zero-Shot Network Quantization", CVPR, 2022. \[[paper](https://openaccess.thecvf.com/content/CVPR2022/html/Zhong_IntraQ_Learning_Synthetic_Images_With_Intra-Class_Heterogeneity_for_Zero-Shot_Network_CVPR_2022_paper.html)] \[[code](https://github.com/zysxmu/IntraQ) ⭐ 37 | 🐛 0 | 🌐 Python | 📅 2022-03-02]
+* "Solving Oscillation Problem in Post-Training Quantization Through a Theoretical Perspective", CVPR, 2023. \[[paper](https://arxiv.org/pdf/2303.11906.pdf)] \[[code](https://github.com/bytedance/mrecg) ⚠️ Archived] \[**`PTQ`**]
+* "Accurate Post Training Quantization with Small Calibration Sets", ICML, 2021. \[[paper](http://proceedings.mlr.press/v139/hubara21a.html)] \[[code](https://github.com/papers-submission/CalibTIP) ⭐ 36 | 🐛 2 | 🌐 Python | 📅 2023-06-29]  \[**`PTQ`**]
+* "Qimera: Data-free Quantization with Synthetic Boundary Supporting Samples", NeurIPS, 2021. \[[paper](https://openreview.net/forum?id=ejo1_Weiart)] \[[code](https://github.com/iamkanghyunchoi/qimera) ⭐ 35 | 🐛 0 | 🌐 Python | 📅 2021-12-12]
+* "Post-Training Sparsity-Aware Quantization", NeurIPS, 2021. \[[paper](https://openreview.net/forum?id=qe9z54E_cqE)] \[[code](https://github.com/gilshm/sparq) ⭐ 34 | 🐛 1 | 🌐 Python | 📅 2023-02-26]  \[**`PTQ`**]
+* "EQ-Net: Elastic Quantization Neural Networks", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_EQ-Net_Elastic_Quantization_Neural_Networks_ICCV_2023_paper.pdf)] \[[code](https://github.com/xuke225/EQ-Net) ⭐ 32 | 🐛 1 | 🌐 Python | 📅 2023-08-15]
+* "High-Capacity Expert Binary Networks", ICLR, 2021. \[[paper](https://openreview.net/forum?id=MxaY4FzOTa)] \[[code](https://github.com/1adrianb/expert-binary-networks) ⭐ 27 | 🐛 0 | 🌐 Python | 📅 2021-12-03] \[**`Extreme`**]
+* "RAPQ: Rescuing Accuracy for Power-of-Two Low-bit Post-training Quantization", IJCAI, 2022. \[[paper](https://www.ijcai.org/proceedings/2022/219)] \[[code](https://github.com/billamihom/rapq) ⭐ 23 | 🐛 0 | 🌐 Python | 📅 2023-07-19]  \[**`PTQ`**]
+* "Auto-NBA: Efficient and Effective Search Over the Joint Space of Networks, Bitwidths, and Accelerators", ICML, 2021. \[[paper](https://proceedings.mlr.press/v139/fu21d.html)] \[[code](https://github.com/RICE-EIC/Auto-NBA) ⭐ 16 | 🐛 0 | 🌐 Python | 📅 2022-01-03]
+* "Finding the Task-Optimal Low-Bit Sub-Distribution in Deep Neural Networks", ICML, 2022. \[[paper](https://proceedings.mlr.press/v162/dong22a.html)] \[[code](https://github.com/RunpeiDong/DGMS) ⭐ 11 | 🐛 0 | 🌐 Python | 📅 2023-05-21]
+* "BASQ: Branch-wise Activation-clipping Search Quantization for Sub-4-bit Neural Networks", ECCV, 2022. \[[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136720017.pdf)] \[[code](https://github.com/HanByulKim/BASQ) ⭐ 8 | 🐛 0 | 🌐 Python | 📅 2022-10-24]
+* "Information Bottleneck: Exact Analysis of (Quantized) Neural Networks", ICLR, 2022. \[[paper](https://openreview.net/forum?id=kF9DZQQrU0w)] \[[code](https://github.com/StephanLorenzen/ExactIBAnalysisInQNNs) ⭐ 7 | 🐛 0 | 🌐 Python | 📅 2022-02-16]
+* "Causal-DFQ: Causality Guided Data-Free Network Quantization", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Shang_Causal-DFQ_Causality_Guided_Data-Free_Network_Quantization_ICCV_2023_paper.pdf)] \[[code](https://github.com/42Shawn/Causal-DFQ) ⭐ 6 | 🐛 1 | 📅 2023-08-13]
+* "Scalable Verification of Quantized Neural Networks", AAAI, 2021. \[[paper](https://arxiv.org/pdf/2012.08185)] \[[code](https://github.com/mlech26l/qnn_robustness_benchmarks) ⭐ 3 | 🐛 0 | 🌐 Python | 📅 2021-12-17]
+* "GENIE: Show Me the Data for Quantization", CVPR, 2023. \[[paper](https://arxiv.org/abs/2212.04780)] \[[code](https://github.com/SamsungLabs/Genie) ⭐ 0 | 🐛 0 | 🌐 Python | 📅 2025-07-25] \[**`PTQ`**]
+* "MetaAug: Meta-Data Augmentation for Post-Training Quantization", ECCV, 2024. \[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3914_ECCV_2024_paper.php)]
+* "Sharpness-Aware Data Generation for Zero-shot Quantization", ICML, 2024. \[[paper](https://openreview.net/forum?id=8mKXMnhnFW)]
+* "A2Q+: Improving Accumulator-Aware Weight Quantization", ICML, 2024. \[[paper](https://openreview.net/forum?id=mbx2pLK5Eq)]
+* "HyQ: Hardware-Friendly Post-Training Quantization for CNN-Transformer Hybrid Networks", IJCAI, 2024. \[[paper](https://www.ijcai.org/proceedings/2024/474)] \[**`PTQ`**]
+* "Retraining-Free Model Quantization via One-Shot Weight-Coupling Learning", CVPR, 2024. \[[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Tang_Retraining-Free_Model_Quantization_via_One-Shot_Weight-Coupling_Learning_CVPR_2024_paper.html)] \[**`MP`**]
+* "Mixed-Precision Quantization for Federated Learning on Resource-Constrained Heterogeneous Devices", CVPR, 2024. \[[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Mixed-Precision_Quantization_for_Federated_Learning_on_Resource-Constrained_Heterogeneous_Devices_CVPR_2024_paper.html)] \[**`MP`**]
+* "Enhancing Post-training Quantization Calibration through Contrastive Learning", CVPR, 2024. \[[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Shang_Enhancing_Post-training_Quantization_Calibration_through_Contrastive_Learning_CVPR_2024_paper.html)] \[**`PTQ`**]
+* "Data-Free Quantization via Pseudo-label Filtering", CVPR, 2024. \[[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Fan_Data-Free_Quantization_via_Pseudo-label_Filtering_CVPR_2024_paper.html)]
+* "Make RepVGG Greater Again: A Quantization-Aware Approach", AAAI, 2024. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29045)]
+* "MetaMix: Meta-State Precision Searcher for Mixed-Precision Activation Quantization", AAAI, 2024. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29212)] \[**`MP`**]
+* "Robustness-Guided Image Synthesis for Data-Free Quantization", AAAI, 2024. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/28972)]
+* "PTMQ: Post-training Multi-Bit Quantization of Neural Networks", AAAI, 2024. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/29553)] \[**`PTQ`**]
+* "Trainable Fixed-Point Quantization for Deep Learning Acceleration on FPGAs", arXiv, 2023. \[[paper](http://arxiv.org/abs/2401.17544)]
+* "StableQ: Enhancing Data-Scarce Quantization with Text-to-Image Data", arXiv, 2023. \[[paper](http://arxiv.org/abs/2312.05272)]
+* "Understanding Neural Network Binarization with Forward and Backward Proximal Quantizers", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71526)] \[**`Extreme`**]
+* "TexQ: Zero-shot Network Quantization with Texture Feature Distribution Calibration", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/70325)]
+* "Overcoming Forgetting Catastrophe in Quantization-Aware Training", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Overcoming_Forgetting_Catastrophe_in_Quantization-Aware_Training_ICCV_2023_paper.pdf)]
+* "DenseShift: Towards Accurate and Efficient Low-Bit Power-of-Two Quantization", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_DenseShift_Towards_Accurate_and_Efficient_Low-Bit_Power-of-Two_Quantization_ICCV_2023_paper.pdf)]
+* "A2Q: Accumulator-Aware Quantization with Guaranteed Overflow Avoidance", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Colbert_A2Q_Accumulator-Aware_Quantization_with_Guaranteed_Overflow_Avoidance_ICCV_2023_paper.pdf)]
+* "EMQ: Evolving Training-free Proxies for Automated Mixed Precision Quantization", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Dong_EMQ_Evolving_Training-free_Proxies_for_Automated_Mixed_Precision_Quantization_ICCV_2023_paper.pdf)] \[**`MP`**]
+* "Unified Data-Free Compression: Pruning and Quantization without Fine-Tuning", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Bai_Unified_Data-Free_Compression_Pruning_and_Quantization_without_Fine-Tuning_ICCV_2023_paper.pdf)] \[**`PTQ`**]
+* "FlexRound: Learnable Rounding based on Element-wise Division for Post-Training Quantization", ICML, 2023. \[[paper](https://openreview.net/forum?id=EPnzNJTYsb)] \[**`PTQ`**]
+* "Data-Free Quantization via Mixed-Precision Compensation without Fine-Tuning", PR, 2023. \[[paper](http://arxiv.org/abs/2307.00498)]
+* "OMPQ: Orthogonal Mixed Precision Quantization", AAAI, 2023. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26084)] \[**`MP`**]
+* "Rethinking Data-Free Quantization as a Zero-Sum Game", AAAI, 2023. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26136)]
+* "Quantized Feature Distillation for Network Quantization", AAAI, 2023. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26354)]
+* "Resilient Binary Neural Network", AAAI, 2023. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26261)] \[**`Extreme`**]
+* "Fast and Accurate Binary Neural Networks Based on Depth-Width Reshaping", AAAI, 2023. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/26268)] \[**`Extreme`**]
+* "Efficient Quantization-aware Training with Adaptive Coreset Selection", arXiv, 2023. \[[paper](http://arxiv.org/abs/2306.07215)]
+* "One-Shot Model for Mixed-Precision Quantization", CVPR, 2023. \[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Koryakovskiy_One-Shot_Model_for_Mixed-Precision_Quantization_CVPR_2023_paper.pdf)] \[**`MP`**]
+* "Adaptive Data-Free Quantization", CVPR, 2023. \[[paper](https://arxiv.org/abs/2303.06869)]
+* "Bit-shrinking: Limiting Instantaneous Sharpness for Improving Post-training Quantization", CVPR, 2023. \[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Lin_Bit-Shrinking_Limiting_Instantaneous_Sharpness_for_Improving_Post-Training_Quantization_CVPR_2023_paper.pdf)] \[**`PTQ`**]
+* "Bayesian asymmetric quantized neural networks", PR, 2023. \[[paper](https://www.sciencedirect.com/science/article/pii/S0031320323001632)]
+* "Distribution-sensitive Information Retention for Accurate Binary Neural Network", IJCV, 2023. \[[paper](https://arxiv.org/abs/2109.12338)] \[**`Extreme`**]
+* "SDQ: Stochastic Differentiable Quantization with Mixed Precision", ICML, 2022. \[[paper](https://proceedings.mlr.press/v162/huang22h.html)] \[**`MP`**]
+* "Mr.BiQ: Post-Training Non-Uniform Quantization based on Minimizing the Reconstruction Error", CVPR, 2022. \[[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Jeon_Mr.BiQ_Post-Training_Non-Uniform_Quantization_Based_on_Minimizing_the_Reconstruction_Error_CVPR_2022_paper.pdf)] \[**`PTQ`**] \[**`Non-uniform`**]
+* "Data-Free Network Compression via Parametric Non-uniform Mixed Precision Quantization", CVPR, 2022. \[[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Chikin_Data-Free_Network_Compression_via_Parametric_Non-Uniform_Mixed_Precision_Quantization_CVPR_2022_paper.pdf)] \[**`Non-uniform`**] \[**`MP`**]
+* "Instance-Aware Dynamic Neural Network Quantization", CVPR, 2022. \[[paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Liu_Instance-Aware_Dynamic_Neural_Network_Quantization_CVPR_2022_paper.pdf)]
+* "Leveraging Inter-Layer Dependency for Post-Training Quantization", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=54389)]  \[**`PTQ`**]
+* "Theoretically Better and Numerically Faster Distributed Optimization with Smoothness-Aware Quantization Techniques", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=53476)]
+* "Entropy-Driven Mixed-Precision Quantization for Deep Network Design",  NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=54104)] \[**`MP`**]
+* "Redistribution of Weights and Activations for AdderNet Quantization", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=54812)]
+* "ClimbQ: Class Imbalanced Quantization Enabling Robustness on Efficient Inferences", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=55162)]
+* "Non-Uniform Step Size Quantization for Accurate Post-Training Quantization", ECCV, 2022. \[[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710657.pdf)]  \[**`PTQ`**] \[**`Non-uniform`**]
+* "Towards Accurate Network Quantization with Equivalent Smooth Regularizer", ECCV, 2022. \[[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710726.pdf)]
+* "RDO-Q: Extremely Fine-Grained Channel-Wise Quantization via Rate-Distortion Optimization", ECCV, 2022. \[[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136720156.pdf)]
+* "Symmetry Regularization and Saturating Nonlinearity for Robust Quantization", ECCV, 2022. \[[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710207.pdf)]
+* "MultiQuant: Training Once for Multi-bit Quantization of Neural Networks", IJCAI, 2022. \[[paper](https://www.ijcai.org/proceedings/2022/504)]
+* "F8Net: Fixed-Point 8-bit Only Multiplication for Network Quantization", ICLR, 2022. \[[paper](https://openreview.net/forum?id=_CfpJazzXT2)]
+* "FILM-QNN: Efficient FPGA Acceleration of Deep Neural Networks with Intra-Layer, Mixed-Precision Quantization", FPGA, 2022. \[[paper](https://dl.acm.org/doi/abs/10.1145/3490422.3502364)] \[**`MP`**]
+* "Differentiable Dynamic Quantization with Mixed Precision and Adaptive Resolution", ICML, 2021. \[[paper](https://proceedings.mlr.press/v139/zhang21r.html)] \[**`MP`**]
+* "Diversifying Sample Generation for Accurate Data-Free Quantization", CVPR, 2021. \[[paper](https://arxiv.org/abs/2103.01049)]  \[**`PTQ`**]
+* "Learnable Companding Quantization for Accurate Low-bit Neural Networks", CVPR, 2021. \[[paper](https://arxiv.org/abs/2103.07156)]
+* "Zero-shot Adversarial Quantization", CVPR, 2021. \[[paper](https://arxiv.org/abs/2103.15263)] \[[code](https://github.com/FLHonker/ZAQ-code)]
+* "Neural gradients are near-lognormal: improved quantized and sparse training", ICLR, 2021. \[[paper](https://openreview.net/forum?id=EoFNy62JGd)]
+* "Training with Quantization Noise for Extreme Model Compression", ICLR, 2021. \[[paper](https://openreview.net/forum?id=dV19Yyi1fS3)]
+* "Simple Augmentation Goes a Long Way: ADRL for DNN Quantization", ICLR, 2021. \[[paper](https://openreview.net/forum?id=Qr0aRliE_Hb)]
+* "Distribution Adaptive INT8 Quantization for Training CNNs", AAAI, 2021. \[[paper](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwj4-rjuq7nvAhUVPH0KHXlYCUQQFjAFegQIChAD\&url=https%3A%2F%2Fwww.aaai.org%2FAAAI21Papers%2FAAAI-7144.ZhaoK.pdf\&usg=AOvVaw3dnOXfzKkLIw_qWXj7p7Yc)]
+* "Stochastic Precision Ensemble: Self‐Knowledge Distillation for Quantized Deep Neural Networks", AAAI, 2021. \[[paper](https://arxiv.org/abs/2009.14502)]
+* "Optimizing Information Theory Based Bitwise Bottlenecks for Efficient Mixed-Precision Activation Quantization", AAAI, 2021. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/16474/16281)] \[**`MP`**]
+* "OPQ: Compressing Deep Neural Networks with One-shot Pruning-Quantization", AAAI, 2021. \[[paper](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=\&cad=rja\&uact=8\&ved=2ahUKEwjD6aPrqbnvAhXeIDQIHWNdDCUQFjADegQIAxAD\&url=https%3A%2F%2Fwww.aaai.org%2FAAAI21Papers%2FAAAI-1054.HuP.pdf\&usg=AOvVaw2R_BcDlKyuuAPHMeO0Q-1c)]
+* "Uncertainty Quantification in CNN through the Bootstrap of Convex Neural Networks", AAAI, 2021. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/17434/17241)]
+* "FracBits: Mixed Precision Quantization via Fractional Bit-Widths", AAAI, 2021. \[[paper](https://www.semanticscholar.org/paper/FracBits%3A-Mixed-Precision-Quantization-via-Yang-Jin/cb219432863778fa173925d51fbf02af1d17ad98)] \[**`MP`**]
+* "Post-training Quantization with Multiple Points: Mixed Precision without Mixed Precision", AAAI, 2021. \[[paper](https://arxiv.org/pdf/2002.09049)]  \[**`PTQ`**] \[**`MP`**]
+* "LSQ+: Improving Low-bit Quantization Through Learnable Offsets and Better Initialization", CVPR, 2020. \[[paper](http://openaccess.thecvf.com/content_CVPRW_2020/html/w40/Bhalgat_LSQ_Improving_Low-Bit_Quantization_Through_Learnable_Offsets_and_Better_Initialization_CVPRW_2020_paper.html)]
+* "HAWQ-V2: Hessian Aware trace-Weighted Quantization of Neural Networks", NeurIPS, 2020. \[[paper](https://proceedings.neurips.cc/paper/2020/hash/d77c703536718b95308130ff2e5cf9ee-Abstract.html)] \[**`MP`**]
+* "Learned step size quantization", ICLR, 2020. \[[paper](https://openreview.net/forum?id=rkgO66VKDS)]
+* "HAWQ: Hessian AWare Quantization of Neural Networks With Mixed-Precision", ICCV, 2019. \[[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Dong_HAWQ_Hessian_AWare_Quantization_of_Neural_Networks_With_Mixed-Precision_ICCV_2019_paper.html)] \[**`MP`**]
+* "Data-Free Quantization Through Weight Equalization and Bias Correction", ICCV, 2019. \[[paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Nagel_Data-Free_Quantization_Through_Weight_Equalization_and_Bias_Correction_ICCV_2019_paper.html)]  \[**`PTQ`**]
+* "PACT: Parameterized Clipping Activation for Quantized Neural Networks", arXiv, 2018. \[[paper](https://arxiv.org/abs/1805.06085)]
+* "Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference", CVPR, 2018. \[[paper](https://openaccess.thecvf.com/content_cvpr_2018/papers/Jacob_Quantization_and_Training_CVPR_2018_paper.pdf)]
+
+\[[Back to Overview](#overview)]
+
+### Other Tasks
+
+#### Object Detection
+
+* "Reg-PTQ: Regression-specialized Post-training Quantization for Fully Quantized Object Detector", CVPR, 2024. \[[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Ding_Reg-PTQ_Regression-specialized_Post-training_Quantization_for_Fully_Quantized_Object_Detector_CVPR_2024_paper.html)] \[**`PTQ`**]
+* "Improving Post-Training Quantization on Object Detection with Task Loss-Guided Lp Metric", arXiv, 2023. \[[paper](https://arxiv.org/abs/2304.09785)]  \[**`PTQ`**]
+* "AQD: Towards Accurate Quantized Object Detection", CVPR, 2021. \[[paper](http://arxiv.org/abs/2007.06919)]
+* "BiDet: An Efficient Binarized Object Detector", CVPR, 2020. \[[paper](https://arxiv.org/abs/2003.03961)] \[[code](https://github.com/ZiweiWangTHU/BiDet) ⭐ 170 | 🐛 1 | 🌐 Python | 📅 2021-07-07] \[**`Extreme`**]
+* "Fully Quantized Network for Object Detection", CVPR, 2019. \[[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Fully_Quantized_Network_for_Object_Detection_CVPR_2019_paper.pdf)]
+
+\[[Back to Overview](#overview)]
+
+#### Super Resolution
+
+* "Toward Accurate Post-Training Quantization for Image Super Resolution", CVPR, 2023. \[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tu_Toward_Accurate_Post-Training_Quantization_for_Image_Super_Resolution_CVPR_2023_paper.pdf)] \[[code](https://github.com/huawei-noah/Efficient-Computing/tree/master/Quantization/PTQ4SR) ⭐ 1,306 | 🐛 27 | 🌐 Jupyter Notebook | 📅 2024-11-05]  \[**`PTQ`**]
+* "CADyQ: Content-Aware Dynamic Quantization for Image Super-Resolution
+  ", ECCV, 2022. \[[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136670360.pdf)] \[[code](https://github.com/cheeun/cadyq) ⭐ 61 | 🐛 1 | 🌐 Python | 📅 2022-08-19]
+* "PAMS: Quantized Super-Resolution via Parameterized Max Scale", ECCV, 2020. \[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700562.pdf)] \[[code](https://github.com/colorjam/PAMS) ⭐ 60 | 🐛 8 | 🌐 Python | 📅 2021-12-27]
+* "Dynamic Dual Trainable Bounds for Ultra-low Precision Super-Resolution Networks", ECCV, 2022. \[[paper](https://arxiv.org/abs/2203.03844)] \[[code](https://github.com/zysxmu/ddtb) ⭐ 30 | 🐛 0 | 🌐 Python | 📅 2022-09-13]
+* "DAQ: Channel-Wise Distribution-Aware Quantization for Deep Image Super-Resolution Networks", WACV, 2022. \[[paper](http://openaccess.thecvf.com/content/WACV2022/html/Hong_DAQ_Channel-Wise_Distribution-Aware_Quantization_for_Deep_Image_Super-Resolution_Networks_WACV_2022_paper.html)] \[[code](https://github.com/Cheeun/DAQ-pytorch) ⭐ 27 | 🐛 2 | 🌐 Python | 📅 2024-02-19]
+* "Fully Quantized Image Super-Resolution Networks", ACM MM, 2021. \[[paper](https://arxiv.org/abs/2011.14265)] \[[code](https://github.com/billhhh/FQSR) ⭐ 20 | 🐛 1 | 🌐 Python | 📅 2021-07-25]
+* "Towards Robust Full Low-bit Quantization of Super Resolution Networks", ECCV, 2024. \[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/9567_ECCV_2024_paper.php)] \[**`PTQ`**]
+* "Overcoming Distribution Mismatch in Quantizing Image Super-Resolution Networks", ECCV, 2024. \[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/2121_ECCV_2024_paper.php)]
+* "QuantSR: Accurate Low-bit Quantization for Efficient Image Super-Resolution", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/72890)]
+* "EBSR: Enhanced Binary Neural Network for Image Super-Resolution", arXiv, 2023. \[[paper](https://arxiv.org/abs/2303.12270)] \[**`Extreme`**]
+* "Training Binary Neural Network without Batch Normalization for Image Super-Resolution", AAAI, 2021. \[[paper](https://ojs.aaai.org/index.php/AAAI/article/download/16263/16070)] \[**`Extreme`**]
+
+\[[Back to Overview](#overview)]
+
+#### Point Cloud
+
+* "LiDAR-PTQ: Post-Training Quantization for Point Cloud 3D Object Detection", ICLR, 2024. \[[paper](https://openreview.net/forum?id=0d1gQI114C)]  \[**`PTQ`**]
+* "Binarizing Sparse Convolutional Networks for Efficient Point Cloud Analysis", arXiv, 2023. \[[paper](https://arxiv.org/abs/2303.15493)] \[**`Extreme`**]
+* "BiPointNet: Binary Neural Network for Point Clouds", ICLR, 2021. \[[paper](https://openreview.net/forum?id=9QLRCVysdlO)]  \[[code](https://github.com/htqin/BiPointNet) ⭐ 77 | 🐛 5 | 🌐 Python | 📅 2021-03-01] \[**`Extreme`**]
+
+\[[Back to Overview](#overview)]
+
+***
+
+## References
+
+* Online Resources:
+  * [MQBench (Benchmark)](http://mqbench.tech/)
+  * [Awesome Model Quantization (GitHub)](https://github.com/htqin/awesome-model-quantization) ⭐ 2,424 | 🐛 0 | 📅 2026-07-10
+  * [Awesome Transformer Attention (GitHub)](https://github.com/cmhungsteve/Awesome-Transformer-Attention) ⭐ 5,048 | 🐛 23 | 📅 2024-07-30
+
+***
+
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-13._
