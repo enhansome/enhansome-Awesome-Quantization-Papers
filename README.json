@@ -16,10 +16,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-14T03:50:22Z",
+            "last_commit": "2026-08-15T14:25:53Z",
             "owner": "deepspeedai",
             "repo": "DeepSpeed",
-            "stars": 42930
+            "stars": 42941
           }
         },
         {
@@ -47,7 +47,7 @@
             "last_commit": "2026-08-13T17:51:24Z",
             "owner": "bitsandbytes-foundation",
             "repo": "bitsandbytes",
-            "stars": 8414
+            "stars": 8413
           }
         },
         {
@@ -89,7 +89,7 @@
             "last_commit": "2024-03-27T01:46:02Z",
             "owner": "IST-DASLab",
             "repo": "gptq",
-            "stars": 2351
+            "stars": 2352
           }
         },
         {
@@ -943,7 +943,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-14T20:59:07.220Z",
+    "last_updated": "2026-08-15T20:53:31.179Z",
     "original_repository": "Zhen-Dong/Awesome-Quantization-Papers",
     "original_repository_sha": "738aef92216bc43c1d4b65530114d7c5f64791ba",
     "enhanced_repository": "enhansome/enhansome-Awesome-Quantization-Papers",
