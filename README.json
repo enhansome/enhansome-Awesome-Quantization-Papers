@@ -14,10 +14,10 @@
                 "archived": false,
                 "id": 235860204,
                 "language": "Python",
-                "last_commit": "2026-08-19T14:54:42Z",
+                "last_commit": "2026-08-20T17:07:55Z",
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 42963
+                "stars": 42969
               }
             },
             {
@@ -32,7 +32,7 @@
                 "last_commit": "2024-06-10T19:20:16Z",
                 "owner": "artidoro",
                 "repo": "qlora",
-                "stars": 10991
+                "stars": 10990
               }
             },
             {
@@ -47,7 +47,7 @@
                 "last_commit": "2026-08-19T15:51:24Z",
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
-                "stars": 8429
+                "stars": 8428
               }
             },
             {
@@ -62,7 +62,7 @@
                 "last_commit": "2024-01-22T01:11:22Z",
                 "owner": "huawei-noah",
                 "repo": "Pretrained-Language-Model",
-                "stars": 3164
+                "stars": 3165
               }
             },
             {
@@ -77,7 +77,7 @@
                 "last_commit": "2024-01-22T01:11:22Z",
                 "owner": "huawei-noah",
                 "repo": "Pretrained-Language-Model",
-                "stars": 3164
+                "stars": 3165
               }
             },
             {
@@ -92,7 +92,7 @@
                 "last_commit": "2024-03-27T01:46:02Z",
                 "owner": "IST-DASLab",
                 "repo": "gptq",
-                "stars": 2355
+                "stars": 2356
               }
             },
             {
@@ -107,7 +107,7 @@
                 "last_commit": "2024-07-12T03:11:08Z",
                 "owner": "mit-han-lab",
                 "repo": "smoothquant",
-                "stars": 1675
+                "stars": 1674
               }
             },
             {
@@ -1009,7 +1009,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T20:57:39.847Z",
+    "last_updated": "2026-08-20T20:59:38.637Z",
     "original_repository": "Zhen-Dong/Awesome-Quantization-Papers",
     "original_repository_id": 443497884,
     "original_repository_sha": "738aef92216bc43c1d4b65530114d7c5f64791ba",
