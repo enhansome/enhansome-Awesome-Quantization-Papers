@@ -53,9 +53,9 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ### Language Transformers
 
-* "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] \[[code](https://github.com/microsoft/DeepSpeed) ⭐ 42,969 | 🐛 1,321 | 🌐 Python | 📅 2026-08-20] \[**`PTQ`**]
-* "QLoRA: Efficient Finetuning of Quantized LLMs", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71815)] \[[code](https://github.com/artidoro/qlora) ⭐ 10,990 | 🐛 206 | 🌐 Jupyter Notebook | 📅 2024-06-10]
-* "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale", NeurIPS, 2022. \[[paper](https://arxiv.org/abs/2208.07339)] \[[code](https://github.com/timdettmers/bitsandbytes) ⭐ 8,428 | 🐛 58 | 🌐 Python | 📅 2026-08-19]
+* "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] \[[code](https://github.com/microsoft/DeepSpeed) ⭐ 42,974 | 🐛 1,319 | 🌐 Python | 📅 2026-08-21] \[**`PTQ`**]
+* "QLoRA: Efficient Finetuning of Quantized LLMs", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71815)] \[[code](https://github.com/artidoro/qlora) ⭐ 10,991 | 🐛 206 | 🌐 Jupyter Notebook | 📅 2024-06-10]
+* "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale", NeurIPS, 2022. \[[paper](https://arxiv.org/abs/2208.07339)] \[[code](https://github.com/timdettmers/bitsandbytes) ⭐ 8,430 | 🐛 60 | 🌐 Python | 📅 2026-08-19]
 * "BinaryBERT: Pushing the Limit of BERT Quantization", ACL, 2021. \[[paper](https://arxiv.org/abs/2012.15701)] \[[code](https://github.com/huawei-noah/Pretrained-Language-Model) ⭐ 3,165 | 🐛 109 | 🌐 Python | 📅 2024-01-22] \[**`Extreme`**]
 * "TernaryBERT: Distillation-aware Ultra-low Bit BERT", EMNLP, 2020. \[[paper](https://arxiv.org/abs/2009.12812)] \[[code](https://github.com/huawei-noah/Pretrained-Language-Model) ⭐ 3,165 | 🐛 109 | 🌐 Python | 📅 2024-01-22] \[**`Extreme`**]
 * "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers", ICLR, 2023. \[[papar](https://arxiv.org/abs/2210.17323)]  \[[code](https://github.com/IST-DASLab/gptq) ⭐ 2,356 | 🐛 27 | 🌐 Python | 📅 2024-03-27] \[**`PTQ`**]
@@ -241,7 +241,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 * "BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction", ICLR, 2021. \[[paper](https://openreview.net/forum?id=POWv6hDd9XH)] \[[code](https://github.com/yhhhli/BRECQ) ⭐ 300 | 🐛 28 | 🌐 Python | 📅 2021-08-01]  \[**`PTQ`**]
 * "ZeroQ: A Novel Zero Shot Quantization Framework", CVPR, 2020. \[[paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Cai_ZeroQ_A_Novel_Zero_Shot_Quantization_Framework_CVPR_2020_paper.html)] \[[code](https://github.com/amirgholami/ZeroQ) ⭐ 281 | 🐛 17 | 🌐 Python | 📅 2023-12-08]  \[**`PTQ`**]
 * "ActNN: Reducing Training Memory Footprint via 2-Bit Activation Compressed Training", ICML, 2021. \[[paper](https://proceedings.mlr.press/v139/chen21z.html)] \[[code](https://github.com/ucbrise/actnn) ⭐ 199 | 🐛 8 | 🌐 Python | 📅 2022-12-22]
-* "FP8 Quantization: The Power of the Exponent", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=53073)] \[[code](https://github.com/qualcomm-ai-research/fp8-quantization) ⭐ 173 | 🐛 6 | 🌐 Python | 📅 2023-03-09]
+* "FP8 Quantization: The Power of the Exponent", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=53073)] \[[code](https://github.com/qualcomm-ai-research/fp8-quantization) ⭐ 172 | 🐛 6 | 🌐 Python | 📅 2023-03-09]
 * "Permute, Quantize, and Fine-tune: Efficient Compression of Neural Networks.", CVPR, 2021. \[[paper](https://arxiv.org/abs/2010.15703)] \[[code](https://github.com/uber-research/permute-quantize-finetune) ⭐ 146 | 🐛 2 | 🌐 Python | 📅 2021-08-14]
 * "Nonuniform-to-Uniform Quantization: Towards Accurate Quantization via Generalized Straight-Through Estimation", CVPR, 2022. \[[paper](https://arxiv.org/abs/2111.14826)] \[[code](https://github.com/liuzechun/Nonuniform-to-Uniform-Quantization) ⭐ 139 | 🐛 6 | 🌐 Python | 📅 2022-04-28] \[**`Non-uniform`**]
 * "Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=53412)] \[[code](https://github.com/ist-daslab/obc) ⭐ 133 | 🐛 3 | 🌐 Python | 📅 2023-07-11]  \[**`PTQ`**]
@@ -359,7 +359,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 #### Super Resolution
 
-* "Toward Accurate Post-Training Quantization for Image Super Resolution", CVPR, 2023. \[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tu_Toward_Accurate_Post-Training_Quantization_for_Image_Super_Resolution_CVPR_2023_paper.pdf)] \[[code](https://github.com/huawei-noah/Efficient-Computing/tree/master/Quantization/PTQ4SR) ⭐ 1,306 | 🐛 27 | 🌐 Jupyter Notebook | 📅 2024-11-05]  \[**`PTQ`**]
+* "Toward Accurate Post-Training Quantization for Image Super Resolution", CVPR, 2023. \[[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Tu_Toward_Accurate_Post-Training_Quantization_for_Image_Super_Resolution_CVPR_2023_paper.pdf)] \[[code](https://github.com/huawei-noah/Efficient-Computing/tree/master/Quantization/PTQ4SR) ⭐ 1,307 | 🐛 27 | 🌐 Jupyter Notebook | 📅 2024-11-05]  \[**`PTQ`**]
 * "CADyQ: Content-Aware Dynamic Quantization for Image Super-Resolution
   ", ECCV, 2022. \[[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136670360.pdf)] \[[code](https://github.com/cheeun/cadyq) ⭐ 61 | 🐛 1 | 🌐 Python | 📅 2022-08-19]
 * "PAMS: Quantized Super-Resolution via Parameterized Max Scale", ECCV, 2020. \[[paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123700562.pdf)] \[[code](https://github.com/colorjam/PAMS) ⭐ 60 | 🐛 8 | 🌐 Python | 📅 2021-12-27]
@@ -389,8 +389,8 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 * Online Resources:
   * [MQBench (Benchmark)](http://mqbench.tech/)
   * [Awesome Model Quantization (GitHub)](https://github.com/htqin/awesome-model-quantization) ⭐ 2,429 | 🐛 0 | 📅 2026-07-10
-  * [Awesome Transformer Attention (GitHub)](https://github.com/cmhungsteve/Awesome-Transformer-Attention) ⭐ 5,048 | 🐛 23 | 📅 2024-07-30
+  * [Awesome Transformer Attention (GitHub)](https://github.com/cmhungsteve/Awesome-Transformer-Attention) ⭐ 5,049 | 🐛 23 | 📅 2024-07-30
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-20._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-21._
