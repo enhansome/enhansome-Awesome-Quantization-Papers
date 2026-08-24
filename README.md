@@ -53,13 +53,13 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ### Language Transformers
 
-* "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] \[[code](https://github.com/microsoft/DeepSpeed) ⭐ 42,980 | 🐛 1,319 | 🌐 Python | 📅 2026-08-23] \[**`PTQ`**]
-* "QLoRA: Efficient Finetuning of Quantized LLMs", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71815)] \[[code](https://github.com/artidoro/qlora) ⭐ 10,993 | 🐛 206 | 🌐 Jupyter Notebook | 📅 2024-06-10]
-* "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale", NeurIPS, 2022. \[[paper](https://arxiv.org/abs/2208.07339)] \[[code](https://github.com/timdettmers/bitsandbytes) ⭐ 8,432 | 🐛 66 | 🌐 Python | 📅 2026-08-19]
+* "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] \[[code](https://github.com/microsoft/DeepSpeed) ⭐ 42,985 | 🐛 1,320 | 🌐 Python | 📅 2026-08-24] \[**`PTQ`**]
+* "QLoRA: Efficient Finetuning of Quantized LLMs", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71815)] \[[code](https://github.com/artidoro/qlora) ⭐ 10,997 | 🐛 206 | 🌐 Jupyter Notebook | 📅 2024-06-10]
+* "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale", NeurIPS, 2022. \[[paper](https://arxiv.org/abs/2208.07339)] \[[code](https://github.com/timdettmers/bitsandbytes) ⭐ 8,435 | 🐛 66 | 🌐 Python | 📅 2026-08-19]
 * "BinaryBERT: Pushing the Limit of BERT Quantization", ACL, 2021. \[[paper](https://arxiv.org/abs/2012.15701)] \[[code](https://github.com/huawei-noah/Pretrained-Language-Model) ⭐ 3,165 | 🐛 109 | 🌐 Python | 📅 2024-01-22] \[**`Extreme`**]
 * "TernaryBERT: Distillation-aware Ultra-low Bit BERT", EMNLP, 2020. \[[paper](https://arxiv.org/abs/2009.12812)] \[[code](https://github.com/huawei-noah/Pretrained-Language-Model) ⭐ 3,165 | 🐛 109 | 🌐 Python | 📅 2024-01-22] \[**`Extreme`**]
-* "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers", ICLR, 2023. \[[papar](https://arxiv.org/abs/2210.17323)]  \[[code](https://github.com/IST-DASLab/gptq) ⭐ 2,356 | 🐛 27 | 🌐 Python | 📅 2024-03-27] \[**`PTQ`**]
-* "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models", ICML, 2023. \[[paper](https://arxiv.org/abs/2211.10438)] \[[code](https://github.com/mit-han-lab/smoothquant) ⭐ 1,674 | 🐛 72 | 🌐 Python | 📅 2024-07-12] \[**`PTQ`**]
+* "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers", ICLR, 2023. \[[papar](https://arxiv.org/abs/2210.17323)]  \[[code](https://github.com/IST-DASLab/gptq) ⭐ 2,358 | 🐛 27 | 🌐 Python | 📅 2024-03-27] \[**`PTQ`**]
+* "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models", ICML, 2023. \[[paper](https://arxiv.org/abs/2211.10438)] \[[code](https://github.com/mit-han-lab/smoothquant) ⭐ 1,677 | 🐛 72 | 🌐 Python | 📅 2024-07-12] \[**`PTQ`**]
 * "I-BERT: Integer-only BERT Quantization", ICML, 2021. \[[paper](https://proceedings.mlr.press/v139/kim21d.html)] \[[code](https://github.com/kssteven418/I-BERT) ⭐ 270 | 🐛 28 | 🌐 Python | 📅 2023-01-29]
 * "Understanding and Overcoming the Challenges of Efficient Transformer Quantization", EMNLP, 2021. \[[paper](https://arxiv.org/abs/2109.12948)] \[[code](https://github.com/qualcomm-ai-research/transformer-quantization) ⭐ 213 | 🐛 2 | 🌐 Python | 📅 2021-11-09]
 * "RPTQ: Reorder-based Post-training Quantization for Large Language Models", arXiv, 2023. \[[paper](https://arxiv.org/abs/2304.01089)] \[[code](https://github.com/hahnyuan/rptq4llm) ⭐ 200 | 🐛 7 | 🌐 Python | 📅 2023-05-17] \[**`PTQ`**]
@@ -210,6 +210,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ### Visual Generation
 
+* "Q-diffusion: Quantizing Diffusion Models", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)] \[[code](https://github.com/Xiuyu-Li/q-diffusion) ⭐ 379 | 🐛 24 | 🌐 Python | 📅 2024-03-21] \[**`PTQ`**]
 * "BiDM: Pushing the Limit of Quantization for Diffusion Models", NeurIPS, 2024. \[[paper](https://nips.cc/virtual/2024/poster/93620)]
 * "BitsFusion: 1.99 bits Weight Quantization of Diffusion Model", NeurIPS, 2024. \[[paper](https://nips.cc/virtual/2024/poster/96909)]
 * "Timestep-Aware Correction for Quantized Diffusion Models", ECCV, 2024. \[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8312_ECCV_2024_paper.php)]
@@ -227,7 +228,6 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 * "PTQD: Accurate Post-Training Quantization for Diffusion Models", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71314)] \[**`PTQ`**]
 * "Q-DM: An Efficient Low-bit Quantized Diffusion Model", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/70279)]
 * "Temporal Dynamic Quantization for Diffusion Models", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/72396)]
-* "Q-diffusion: Quantizing Diffusion Models", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)] \[[code](https://github.com/Xiuyu-Li/q-diffusion) ⭐ 379 | 🐛 24 | 🌐 Python | 📅 2024-03-21] \[**`PTQ`**]
 * "Towards Accurate Data-free Quantization for Diffusion Models", arXiv, 2023. \[[paper](http://arxiv.org/abs/2305.18723)] \[**`PTQ`**]
 * "Post-training Quantization on Diffusion Models", CVPR, 2023. \[[paper](http://openaccess.thecvf.com/content/CVPR2023/html/Shang_Post-Training_Quantization_on_Diffusion_Models_CVPR_2023_paper.html)] \[[code](https://https//github.com/42Shawn/PTQ4DM)] \[**`PTQ`**]
 
@@ -349,10 +349,10 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 #### Object Detection
 
+* "BiDet: An Efficient Binarized Object Detector", CVPR, 2020. \[[paper](https://arxiv.org/abs/2003.03961)] \[[code](https://github.com/ZiweiWangTHU/BiDet) ⭐ 170 | 🐛 1 | 🌐 Python | 📅 2021-07-07] \[**`Extreme`**]
 * "Reg-PTQ: Regression-specialized Post-training Quantization for Fully Quantized Object Detector", CVPR, 2024. \[[paper](https://openaccess.thecvf.com/content/CVPR2024/html/Ding_Reg-PTQ_Regression-specialized_Post-training_Quantization_for_Fully_Quantized_Object_Detector_CVPR_2024_paper.html)] \[**`PTQ`**]
 * "Improving Post-Training Quantization on Object Detection with Task Loss-Guided Lp Metric", arXiv, 2023. \[[paper](https://arxiv.org/abs/2304.09785)]  \[**`PTQ`**]
 * "AQD: Towards Accurate Quantized Object Detection", CVPR, 2021. \[[paper](http://arxiv.org/abs/2007.06919)]
-* "BiDet: An Efficient Binarized Object Detector", CVPR, 2020. \[[paper](https://arxiv.org/abs/2003.03961)] \[[code](https://github.com/ZiweiWangTHU/BiDet) ⭐ 170 | 🐛 1 | 🌐 Python | 📅 2021-07-07] \[**`Extreme`**]
 * "Fully Quantized Network for Object Detection", CVPR, 2019. \[[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Li_Fully_Quantized_Network_for_Object_Detection_CVPR_2019_paper.pdf)]
 
 \[[Back to Overview](#overview)]
@@ -376,9 +376,9 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 #### Point Cloud
 
+* "BiPointNet: Binary Neural Network for Point Clouds", ICLR, 2021. \[[paper](https://openreview.net/forum?id=9QLRCVysdlO)]  \[[code](https://github.com/htqin/BiPointNet) ⭐ 77 | 🐛 5 | 🌐 Python | 📅 2021-03-01] \[**`Extreme`**]
 * "LiDAR-PTQ: Post-Training Quantization for Point Cloud 3D Object Detection", ICLR, 2024. \[[paper](https://openreview.net/forum?id=0d1gQI114C)]  \[**`PTQ`**]
 * "Binarizing Sparse Convolutional Networks for Efficient Point Cloud Analysis", arXiv, 2023. \[[paper](https://arxiv.org/abs/2303.15493)] \[**`Extreme`**]
-* "BiPointNet: Binary Neural Network for Point Clouds", ICLR, 2021. \[[paper](https://openreview.net/forum?id=9QLRCVysdlO)]  \[[code](https://github.com/htqin/BiPointNet) ⭐ 77 | 🐛 5 | 🌐 Python | 📅 2021-03-01] \[**`Extreme`**]
 
 \[[Back to Overview](#overview)]
 
@@ -393,4 +393,4 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-23._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-24._
