@@ -14,10 +14,10 @@
                 "archived": false,
                 "id": 235860204,
                 "language": "Python",
-                "last_commit": "2026-08-26T22:18:46Z",
+                "last_commit": "2026-08-27T10:29:41Z",
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43003
+                "stars": 43005
               }
             },
             {
@@ -32,7 +32,7 @@
                 "last_commit": "2024-06-10T19:20:16Z",
                 "owner": "artidoro",
                 "repo": "qlora",
-                "stars": 10998
+                "stars": 10999
               }
             },
             {
@@ -44,10 +44,10 @@
                 "archived": false,
                 "id": 373674258,
                 "language": "Python",
-                "last_commit": "2026-08-27T00:00:36Z",
+                "last_commit": "2026-08-27T00:16:57Z",
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
-                "stars": 8439
+                "stars": 8441
               }
             },
             {
@@ -62,7 +62,7 @@
                 "last_commit": "2024-01-22T01:11:22Z",
                 "owner": "huawei-noah",
                 "repo": "Pretrained-Language-Model",
-                "stars": 3165
+                "stars": 3166
               }
             },
             {
@@ -77,7 +77,7 @@
                 "last_commit": "2024-01-22T01:11:22Z",
                 "owner": "huawei-noah",
                 "repo": "Pretrained-Language-Model",
-                "stars": 3165
+                "stars": 3166
               }
             },
             {
@@ -1075,9 +1075,16 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T00:01:44.262Z",
-    "original_repository": "Zhen-Dong/Awesome-Quantization-Papers",
-    "original_repository_id": 443497884,
+    "last_updated": "2026-08-27T11:27:17.981Z",
+    "original_repository_info": {
+      "archived": false,
+      "id": 443497884,
+      "language": null,
+      "last_commit": "2025-03-27T09:13:02Z",
+      "owner": "Zhen-Dong",
+      "repo": "Awesome-Quantization-Papers",
+      "stars": 845
+    },
     "original_repository_sha": "738aef92216bc43c1d4b65530114d7c5f64791ba",
     "enhanced_repository": "enhansome/enhansome-Awesome-Quantization-Papers",
     "enhanced_repository_description": null,
