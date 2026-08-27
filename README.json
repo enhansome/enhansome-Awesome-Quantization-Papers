@@ -14,10 +14,10 @@
                 "archived": false,
                 "id": 235860204,
                 "language": "Python",
-                "last_commit": "2026-08-25T18:01:44Z",
+                "last_commit": "2026-08-26T22:18:46Z",
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 42997
+                "stars": 43003
               }
             },
             {
@@ -32,7 +32,7 @@
                 "last_commit": "2024-06-10T19:20:16Z",
                 "owner": "artidoro",
                 "repo": "qlora",
-                "stars": 10997
+                "stars": 10998
               }
             },
             {
@@ -44,10 +44,10 @@
                 "archived": false,
                 "id": 373674258,
                 "language": "Python",
-                "last_commit": "2026-08-19T15:51:24Z",
+                "last_commit": "2026-08-27T00:00:36Z",
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
-                "stars": 8436
+                "stars": 8439
               }
             },
             {
@@ -92,7 +92,7 @@
                 "last_commit": "2024-03-27T01:46:02Z",
                 "owner": "IST-DASLab",
                 "repo": "gptq",
-                "stars": 2359
+                "stars": 2360
               }
             },
             {
@@ -479,7 +479,7 @@
                 "last_commit": "2023-03-09T17:26:39Z",
                 "owner": "Qualcomm-AI-research",
                 "repo": "FP8-quantization",
-                "stars": 172
+                "stars": 173
               }
             },
             {
@@ -1075,7 +1075,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T20:58:23.031Z",
+    "last_updated": "2026-08-27T00:01:44.262Z",
     "original_repository": "Zhen-Dong/Awesome-Quantization-Papers",
     "original_repository_id": 443497884,
     "original_repository_sha": "738aef92216bc43c1d4b65530114d7c5f64791ba",
