@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-31T16:58:10Z",
-                "open_issues": 1351,
+                "last_commit": "2026-09-01T16:44:44Z",
+                "open_issues": 1353,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43041,
+                "stars": 43050,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -56,7 +56,7 @@
                 "open_issues": 206,
                 "owner": "artidoro",
                 "repo": "qlora",
-                "stars": 11001,
+                "stars": 11003,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -77,7 +77,7 @@
                 "open_issues": 70,
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
-                "stars": 8452,
+                "stars": 8451,
                 "topics": [
                   "llm",
                   "machine-learning",
@@ -250,7 +250,7 @@
                 "open_issues": 7,
                 "owner": "hahnyuan",
                 "repo": "RPTQ4LLM",
-                "stars": 200,
+                "stars": 201,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -679,7 +679,7 @@
                 "open_issues": 28,
                 "owner": "yhhhli",
                 "repo": "BRECQ",
-                "stars": 301,
+                "stars": 302,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -700,7 +700,7 @@
                 "open_issues": 17,
                 "owner": "amirgholami",
                 "repo": "ZeroQ",
-                "stars": 281,
+                "stars": 282,
                 "topics": [
                   "compression",
                   "efficient-model",
@@ -748,7 +748,7 @@
                 "open_issues": 6,
                 "owner": "Qualcomm-AI-research",
                 "repo": "FP8-quantization",
-                "stars": 173,
+                "stars": 174,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -801,27 +801,6 @@
             },
             {
               "node_type": "item",
-              "title": "\"Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning\", NeurIPS, 2022. [paper",
-              "description": "] [code] []",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Code for the NeurIPS 2022 paper \"Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning\".",
-                "homepage": "https://arxiv.org/abs/2208.11580",
-                "id": 550219217,
-                "language": "Python",
-                "license": null,
-                "last_commit": "2023-07-11T15:48:56Z",
-                "open_issues": 3,
-                "owner": "IST-DASLab",
-                "repo": "OBC",
-                "stars": 133,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T04:27:06.705Z"
-            },
-            {
-              "node_type": "item",
               "title": "\"QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization\", ICLR, 2022. [paper",
               "description": "] [code] []",
               "children": [],
@@ -836,6 +815,27 @@
                 "open_issues": 0,
                 "owner": "wimh966",
                 "repo": "QDrop",
+                "stars": 134,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T04:27:06.705Z"
+            },
+            {
+              "node_type": "item",
+              "title": "\"Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning\", NeurIPS, 2022. [paper",
+              "description": "] [code] []",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Code for the NeurIPS 2022 paper \"Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning\".",
+                "homepage": "https://arxiv.org/abs/2208.11580",
+                "id": 550219217,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2023-07-11T15:48:56Z",
+                "open_issues": 3,
+                "owner": "IST-DASLab",
+                "repo": "OBC",
                 "stars": 133,
                 "topics": []
               },
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-01T00:03:21.838Z",
+    "last_updated": "2026-09-01T22:47:35.621Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
@@ -1642,7 +1642,7 @@
       "open_issues": 7,
       "owner": "Zhen-Dong",
       "repo": "Awesome-Quantization-Papers",
-      "stars": 848,
+      "stars": 850,
       "topics": [
         "awesome-list",
         "diffusion-models",
