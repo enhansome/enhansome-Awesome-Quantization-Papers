@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-10T22:07:08Z",
-                "open_issues": 1397,
+                "last_commit": "2026-09-11T21:29:05Z",
+                "open_issues": 1398,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43092,
+                "stars": 43096,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -56,7 +56,7 @@
                 "open_issues": 206,
                 "owner": "artidoro",
                 "repo": "qlora",
-                "stars": 11011,
+                "stars": 11012,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -74,10 +74,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-09-07T14:36:23Z",
-                "open_issues": 84,
+                "open_issues": 87,
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
-                "stars": 8475,
+                "stars": 8474,
                 "topics": [
                   "llm",
                   "machine-learning",
@@ -288,7 +288,7 @@
                 "id": 453449198,
                 "language": "Python",
                 "license": null,
-                "last_commit": "2023-06-02T04:10:50Z",
+                "last_commit": "2026-09-11T18:13:01Z",
                 "open_issues": 3,
                 "owner": "AI-Efficiency",
                 "repo": "BiBERT",
@@ -727,7 +727,7 @@
                 "open_issues": 8,
                 "owner": "ucbrise",
                 "repo": "actnn",
-                "stars": 199,
+                "stars": 200,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -920,7 +920,7 @@
                 "open_issues": 3,
                 "owner": "1hunters",
                 "repo": "LIMPQ",
-                "stars": 62,
+                "stars": 63,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -1602,7 +1602,7 @@
                     "id": 334832240,
                     "language": "Python",
                     "license": "MIT",
-                    "last_commit": "2021-03-01T01:22:31Z",
+                    "last_commit": "2026-09-11T18:22:20Z",
                     "open_issues": 5,
                     "owner": "htqin",
                     "repo": "BiPointNet",
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-10T22:44:41.259Z",
+    "last_updated": "2026-09-11T22:45:13.519Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
