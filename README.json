@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-24T22:52:11Z",
-                "open_issues": 1467,
+                "last_commit": "2026-09-25T22:54:46Z",
+                "open_issues": 1474,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43158,
+                "stars": 43160,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -56,7 +56,7 @@
                 "open_issues": 207,
                 "owner": "artidoro",
                 "repo": "qlora",
-                "stars": 11020,
+                "stars": 11021,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -77,7 +77,7 @@
                 "open_issues": 93,
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
-                "stars": 8499,
+                "stars": 8500,
                 "topics": [
                   "llm",
                   "machine-learning",
@@ -386,7 +386,7 @@
                 "open_issues": 11,
                 "owner": "megvii-research",
                 "repo": "FQ-ViT",
-                "stars": 362,
+                "stars": 363,
                 "topics": [
                   "imagenet",
                   "post-training-quantization",
@@ -561,7 +561,7 @@
                 "open_issues": 24,
                 "owner": "Xiuyu-Li",
                 "repo": "q-diffusion",
-                "stars": 380,
+                "stars": 381,
                 "topics": [
                   "ddim",
                   "diffusion-models",
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-24T23:23:38.849Z",
+    "last_updated": "2026-09-25T23:28:55.579Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
@@ -1642,7 +1642,7 @@
       "open_issues": 7,
       "owner": "Zhen-Dong",
       "repo": "Awesome-Quantization-Papers",
-      "stars": 852,
+      "stars": 853,
       "topics": [
         "awesome-list",
         "diffusion-models",
