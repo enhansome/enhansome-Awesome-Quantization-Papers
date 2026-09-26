@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-25T22:54:46Z",
-                "open_issues": 1474,
+                "last_commit": "2026-09-26T15:01:40Z",
+                "open_issues": 1482,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43160,
+                "stars": 43158,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -77,7 +77,7 @@
                 "open_issues": 93,
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
-                "stars": 8500,
+                "stars": 8501,
                 "topics": [
                   "llm",
                   "machine-learning",
@@ -815,7 +815,7 @@
                 "open_issues": 3,
                 "owner": "IST-DASLab",
                 "repo": "OBC",
-                "stars": 134,
+                "stars": 135,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-25T23:28:55.579Z",
+    "last_updated": "2026-09-26T23:06:51.045Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
@@ -1642,7 +1642,7 @@
       "open_issues": 7,
       "owner": "Zhen-Dong",
       "repo": "Awesome-Quantization-Papers",
-      "stars": 853,
+      "stars": 855,
       "topics": [
         "awesome-list",
         "diffusion-models",
