@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-30T21:34:05Z",
-                "open_issues": 1477,
+                "last_commit": "2026-10-01T23:18:32Z",
+                "open_issues": 1486,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43167,
+                "stars": 43173,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -179,7 +179,7 @@
                 "open_issues": 72,
                 "owner": "mit-han-lab",
                 "repo": "smoothquant",
-                "stars": 1691,
+                "stars": 1692,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -497,7 +497,7 @@
                 "open_issues": 14,
                 "owner": "YanjingLi0202",
                 "repo": "Q-ViT",
-                "stars": 106,
+                "stars": 107,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-01T00:09:00.799Z",
+    "last_updated": "2026-10-02T00:07:43.274Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
