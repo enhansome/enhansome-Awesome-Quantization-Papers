@@ -8,7 +8,7 @@
             {
               "node_type": "item",
               "title": "\"ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers\", NeurIPS, 2022. [paper",
-              "description": "] [code] []",
+              "description": "deepspeedai/DeepSpeed",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-02T23:39:32Z",
-                "open_issues": 1486,
+                "last_commit": "2026-10-03T01:02:16Z",
+                "open_issues": 1487,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43173,
+                "stars": 43175,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -43,7 +43,7 @@
             {
               "node_type": "item",
               "title": "\"QLoRA: Efficient Finetuning of Quantized LLMs\", NeurIPS, 2023. [paper",
-              "description": "] [code]",
+              "description": "artidoro/qlora",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -64,7 +64,7 @@
             {
               "node_type": "item",
               "title": "\"LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale\", NeurIPS, 2022. [paper",
-              "description": "] [code]",
+              "description": "bitsandbytes-foundation/bitsandbytes",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -91,7 +91,7 @@
             {
               "node_type": "item",
               "title": "\"BinaryBERT: Pushing the Limit of BERT Quantization\", ACL, 2021. [paper",
-              "description": "] [code] []",
+              "description": "huawei-noah/Pretrained-Language-Model",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -118,7 +118,7 @@
             {
               "node_type": "item",
               "title": "\"TernaryBERT: Distillation-aware Ultra-low Bit BERT\", EMNLP, 2020. [paper",
-              "description": "] [code] []",
+              "description": "huawei-noah/Pretrained-Language-Model",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -145,7 +145,7 @@
             {
               "node_type": "item",
               "title": "\"GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers\", ICLR, 2023. [papar",
-              "description": "] [code] []",
+              "description": "IST-DASLab/gptq",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -166,7 +166,7 @@
             {
               "node_type": "item",
               "title": "\"SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models\", ICML, 2023. [paper",
-              "description": "] [code] []",
+              "description": "mit-han-lab/smoothquant",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -187,7 +187,7 @@
             {
               "node_type": "item",
               "title": "\"I-BERT: Integer-only BERT Quantization\", ICML, 2021. [paper",
-              "description": "] [code]",
+              "description": "kssteven418/I-BERT",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -216,7 +216,7 @@
             {
               "node_type": "item",
               "title": "\"Understanding and Overcoming the Challenges of Efficient Transformer Quantization\", EMNLP, 2021. [paper",
-              "description": "] [code]",
+              "description": "Qualcomm-AI-research/transformer-quantization",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -237,7 +237,7 @@
             {
               "node_type": "item",
               "title": "\"RPTQ: Reorder-based Post-training Quantization for Large Language Models\", arXiv, 2023. [paper",
-              "description": "] [code] []",
+              "description": "hahnyuan/RPTQ4LLM",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -258,7 +258,7 @@
             {
               "node_type": "item",
               "title": "\"BiT: Robustly Binarized Multi-distilled Transformer\", NeurIPS, 2022. [paper",
-              "description": "] [code] []",
+              "description": "facebookresearch/bit",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -279,7 +279,7 @@
             {
               "node_type": "item",
               "title": "\"BiBERT: Accurate Fully Binarized BERT\", ICLR, 2022. [paper",
-              "description": "] [code] []",
+              "description": "AI-Efficiency/BiBERT",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -303,7 +303,7 @@
             {
               "node_type": "item",
               "title": "\"Outlier Suppression: Pushing the Limit of Low-bit Transformer Language Models\", NeurIPS, 2022. [paper]",
-              "description": "[code] []",
+              "description": "wimh966/outlier_suppression",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -324,7 +324,7 @@
             {
               "node_type": "item",
               "title": "\"QIGen: Generating Efficient Kernels for Quantized Inference on Large Language Models\", arXiv, 2023. [paper",
-              "description": "] [code]",
+              "description": "IST-DASLab/QIGen",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -345,7 +345,7 @@
             {
               "node_type": "item",
               "title": "\"QuIP: 2-Bit Quantization of Large Language Models With Guarantees\", NeurIPS, 2023. [paper",
-              "description": "] [code] []",
+              "description": "jerry-chee/QuIP",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -373,7 +373,7 @@
             {
               "node_type": "item",
               "title": "\"FQ-ViT: Post-Training Quantization for Fully Quantized Vision Transformer\", IJCAI, 2022. [paper",
-              "description": "] [code] []",
+              "description": "megvii-research/FQ-ViT",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -400,7 +400,7 @@
             {
               "node_type": "item",
               "title": "\"PTQ4ViT: Post-Training Quantization for Vision Transformers with Twin Uniform Quantization\", ECCV, 2022. [paper",
-              "description": "] [code] []",
+              "description": "hahnyuan/PTQ4ViT",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -421,7 +421,7 @@
             {
               "node_type": "item",
               "title": "\"I-ViT: Integer-only Quantization for Efficient Vision Transformer Inference\", ICCV, 2023. [paper",
-              "description": "] [code]",
+              "description": "zkkli/I-ViT",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -442,7 +442,7 @@
             {
               "node_type": "item",
               "title": "\"RepQ-ViT: Scale Reparameterization for Post-Training Quantization of Vision Transformers\", ICCV, 2023. [paper",
-              "description": "] [code] []",
+              "description": "zkkli/RepQ-ViT",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -463,7 +463,7 @@
             {
               "node_type": "item",
               "title": "\"Patch Similarity Aware Data-Free Quantization for Vision Transformers\", ECCV, 2022. [paper",
-              "description": "] [code] []",
+              "description": "zkkli/PSAQ-ViT",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -484,7 +484,7 @@
             {
               "node_type": "item",
               "title": "\"Q-ViT: Accurate and Fully Quantized Low-bit Vision Transformer\", NeurIPS, 2022. [paper",
-              "description": "] [code]",
+              "description": "YanjingLi0202/Q-ViT",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -505,7 +505,7 @@
             {
               "node_type": "item",
               "title": "\"Oscillation-free Quantization for Low-bit Vision Transformers\", ICML, 2023. [paper",
-              "description": "] [code]",
+              "description": "nbasyl/OFQ",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -548,7 +548,7 @@
             {
               "node_type": "item",
               "title": "\"Q-diffusion: Quantizing Diffusion Models\", ICCV, 2023. [paper",
-              "description": "] [code] []",
+              "description": "Xiuyu-Li/q-diffusion",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -584,7 +584,7 @@
             {
               "node_type": "item",
               "title": "\"8-bit Optimizers via Block-wise Quantization\", ICLR, 2022. [paper",
-              "description": "] [code]",
+              "description": "facebookresearch/bitsandbytes",
               "children": [],
               "repo_info": {
                 "archived": true,
@@ -605,7 +605,7 @@
             {
               "node_type": "item",
               "title": "\"HAWQ-V3: Dyadic Neural Network Quantization\", ICML, 2021. [paper",
-              "description": "] [code] []",
+              "description": "Zhen-Dong/HAWQ",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -640,7 +640,7 @@
             {
               "node_type": "item",
               "title": "\"HAQ: Hardware-Aware Automated Quantization with Mixed Precision\", CVPR, 2019. [paper",
-              "description": "] [code] []",
+              "description": "mit-han-lab/haq",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -666,7 +666,7 @@
             {
               "node_type": "item",
               "title": "\"BRECQ: Pushing the Limit of Post-Training Quantization by Block Reconstruction\", ICLR, 2021. [paper",
-              "description": "] [code] []",
+              "description": "yhhhli/BRECQ",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -687,7 +687,7 @@
             {
               "node_type": "item",
               "title": "\"ZeroQ: A Novel Zero Shot Quantization Framework\", CVPR, 2020. [paper",
-              "description": "] [code] []",
+              "description": "amirgholami/ZeroQ",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -714,7 +714,7 @@
             {
               "node_type": "item",
               "title": "\"ActNN: Reducing Training Memory Footprint via 2-Bit Activation Compressed Training\", ICML, 2021. [paper",
-              "description": "] [code]",
+              "description": "ucbrise/actnn",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -735,7 +735,7 @@
             {
               "node_type": "item",
               "title": "\"FP8 Quantization: The Power of the Exponent\", NeurIPS, 2022. [paper",
-              "description": "] [code]",
+              "description": "Qualcomm-AI-research/FP8-quantization",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -756,7 +756,7 @@
             {
               "node_type": "item",
               "title": "\"Permute, Quantize, and Fine-tune: Efficient Compression of Neural Networks.\", CVPR, 2021. [paper",
-              "description": "] [code]",
+              "description": "uber-research/permute-quantize-finetune",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -781,7 +781,7 @@
             {
               "node_type": "item",
               "title": "\"Nonuniform-to-Uniform Quantization: Towards Accurate Quantization via Generalized Straight-Through Estimation\", CVPR, 2022. [paper",
-              "description": "] [code] []",
+              "description": "liuzechun/Nonuniform-to-Uniform-Quantization",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -802,7 +802,7 @@
             {
               "node_type": "item",
               "title": "\"Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning\", NeurIPS, 2022. [paper",
-              "description": "] [code] []",
+              "description": "IST-DASLab/OBC",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -823,7 +823,7 @@
             {
               "node_type": "item",
               "title": "\"QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization\", ICLR, 2022. [paper",
-              "description": "] [code] []",
+              "description": "wimh966/QDrop",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -844,7 +844,7 @@
             {
               "node_type": "item",
               "title": "\"SQuant: On-the-Fly Data-Free Quantization via Diagonal Hessian Approximation\", ICLR, 2022. [paper",
-              "description": "] [code] []",
+              "description": "clevercool/SQuant",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -865,7 +865,7 @@
             {
               "node_type": "item",
               "title": "\"Network Quantization with Element-wise Gradient Scaling\", CVPR, 2021. [paper",
-              "description": "] [code]",
+              "description": "cvlab-yonsei/EWGS",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -886,7 +886,7 @@
             {
               "node_type": "item",
               "title": "\"Overcoming Oscillations in Quantization-Aware Training\", ICML, 2022. [paper",
-              "description": "] [code]",
+              "description": "Qualcomm-AI-research/oscillations-qat",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -928,7 +928,7 @@
             {
               "node_type": "item",
               "title": "\"How Do Adam and Training Strategies Help BNNs Optimization?\", ICML, 2021. [paper",
-              "description": "] [code]",
+              "description": "liuzechun/AdamBNN",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -949,7 +949,7 @@
             {
               "node_type": "item",
               "title": "\"Multi-Prize Lottery Ticket Hypothesis: Finding Accurate Binary Neural Networks by Pruning A Randomly Weighted Network\", ICLR, 2021. [paper",
-              "description": "] [code] []",
+              "description": "chrundle/biprop",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -975,7 +975,7 @@
             {
               "node_type": "item",
               "title": "\"Few-bit Backward: Quantized Gradients of Activation Functions for Memory Footprint Reduction\", ICML, 2023. [paper",
-              "description": "] [code]",
+              "description": "skolai/fewbit",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1000,7 +1000,7 @@
             {
               "node_type": "item",
               "title": "\"GACT: Activation Compressed Training for Generic Network Architectures\", ICML, 2022. [paper",
-              "description": "] [code]",
+              "description": "LiuXiaoxuanPKU/GACT-ICML",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1021,7 +1021,7 @@
             {
               "node_type": "item",
               "title": "\"Learnable Lookup Table for Neural Network Quantization\", CVPR, 2022. [paper",
-              "description": "] [code] []",
+              "description": "SYSU-SAIL/LLT",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1042,7 +1042,7 @@
             {
               "node_type": "item",
               "title": "\"BSQ: Exploring Bit-Level Sparsity for Mixed-Precision Neural Network Quantization\", ICLR, 2021. [paper",
-              "description": "] [code] []",
+              "description": "yanghr/BSQ",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1063,7 +1063,7 @@
             {
               "node_type": "item",
               "title": "\"IntraQ: Learning Synthetic Images With Intra-Class Heterogeneity for Zero-Shot Network Quantization\", CVPR, 2022. [paper",
-              "description": "] [code]",
+              "description": "zysxmu/IntraQ",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1089,7 +1089,7 @@
             {
               "node_type": "item",
               "title": "\"Solving Oscillation Problem in Post-Training Quantization Through a Theoretical Perspective\", CVPR, 2023. [paper",
-              "description": "] [code] []",
+              "description": "bytedance/MRECG",
               "children": [],
               "repo_info": {
                 "archived": true,
@@ -1112,7 +1112,7 @@
             {
               "node_type": "item",
               "title": "\"Accurate Post Training Quantization with Small Calibration Sets\", ICML, 2021. [paper",
-              "description": "] [code] []",
+              "description": "papers-submission/CalibTIP",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1133,7 +1133,7 @@
             {
               "node_type": "item",
               "title": "\"Qimera: Data-free Quantization with Synthetic Boundary Supporting Samples\", NeurIPS, 2021. [paper",
-              "description": "] [code]",
+              "description": "iamkanghyunchoi/qimera",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1160,7 +1160,7 @@
             {
               "node_type": "item",
               "title": "\"Post-Training Sparsity-Aware Quantization\", NeurIPS, 2021. [paper",
-              "description": "] [code] []",
+              "description": "gilshm/sparq",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1181,7 +1181,7 @@
             {
               "node_type": "item",
               "title": "\"EQ-Net: Elastic Quantization Neural Networks\", ICCV, 2023. [paper",
-              "description": "] [code]",
+              "description": "xuke225/EQ-Net",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1202,7 +1202,7 @@
             {
               "node_type": "item",
               "title": "\"High-Capacity Expert Binary Networks\", ICLR, 2021. [paper",
-              "description": "] [code] []",
+              "description": "1adrianb/expert-binary-networks",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1229,7 +1229,7 @@
             {
               "node_type": "item",
               "title": "\"RAPQ: Rescuing Accuracy for Power-of-Two Low-bit Post-training Quantization\", IJCAI, 2022. [paper",
-              "description": "] [code] []",
+              "description": "BillAmihom/RAPQ",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1250,7 +1250,7 @@
             {
               "node_type": "item",
               "title": "\"Auto-NBA: Efficient and Effective Search Over the Joint Space of Networks, Bitwidths, and Accelerators\", ICML, 2021. [paper",
-              "description": "] [code]",
+              "description": "GATECH-EIC/Auto-NBA",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1274,7 +1274,7 @@
             {
               "node_type": "item",
               "title": "\"Finding the Task-Optimal Low-Bit Sub-Distribution in Deep Neural Networks\", ICML, 2022. [paper",
-              "description": "] [code]",
+              "description": "RunpeiDong/DGMS",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1300,7 +1300,7 @@
             {
               "node_type": "item",
               "title": "\"BASQ: Branch-wise Activation-clipping Search Quantization for Sub-4-bit Neural Networks\", ECCV, 2022. [paper",
-              "description": "] [code]",
+              "description": "HanByulKim/BASQ",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1327,7 +1327,7 @@
             {
               "node_type": "item",
               "title": "\"Information Bottleneck: Exact Analysis of (Quantized) Neural Networks\", ICLR, 2022. [paper",
-              "description": "] [code]",
+              "description": "StephanLorenzen/ExactIBAnalysisInQNNs",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1348,7 +1348,7 @@
             {
               "node_type": "item",
               "title": "\"Causal-DFQ: Causality Guided Data-Free Network Quantization\", ICCV, 2023. [paper",
-              "description": "] [code]",
+              "description": "42Shawn/Causal-DFQ",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1369,7 +1369,7 @@
             {
               "node_type": "item",
               "title": "\"Scalable Verification of Quantized Neural Networks\", AAAI, 2021. [paper",
-              "description": "] [code]",
+              "description": "mlech26l/qnn_robustness_benchmarks",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1390,7 +1390,7 @@
             {
               "node_type": "item",
               "title": "\"GENIE: Show Me the Data for Quantization\", CVPR, 2023. [paper",
-              "description": "] [code] []",
+              "description": "SamsungLabs/Genie",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -1420,7 +1420,7 @@
                 {
                   "node_type": "item",
                   "title": "\"BiDet: An Efficient Binarized Object Detector\", CVPR, 2020. [paper",
-                  "description": "] [code] []",
+                  "description": "ZiweiWangTHU/BiDet",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -1448,7 +1448,7 @@
                 {
                   "node_type": "item",
                   "title": "\"Toward Accurate Post-Training Quantization for Image Super Resolution\", CVPR, 2023. [paper",
-                  "description": "] [code] []",
+                  "description": "huawei-noah/Efficient-Computing",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -1476,7 +1476,7 @@
                 {
                   "node_type": "item",
                   "title": "\"CADyQ: Content-Aware Dynamic Quantization for Image Super-Resolution \", ECCV, 2022. [paper",
-                  "description": "] [code]",
+                  "description": "Cheeun/CADyQ",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -1497,7 +1497,7 @@
                 {
                   "node_type": "item",
                   "title": "\"PAMS: Quantized Super-Resolution via Parameterized Max Scale\", ECCV, 2020. [paper",
-                  "description": "] [code]",
+                  "description": "colorjam/PAMS",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -1518,7 +1518,7 @@
                 {
                   "node_type": "item",
                   "title": "\"Dynamic Dual Trainable Bounds for Ultra-low Precision Super-Resolution Networks\", ECCV, 2022. [paper",
-                  "description": "] [code]",
+                  "description": "zysxmu/DDTB",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -1544,7 +1544,7 @@
                 {
                   "node_type": "item",
                   "title": "\"DAQ: Channel-Wise Distribution-Aware Quantization for Deep Image Super-Resolution Networks\", WACV, 2022. [paper",
-                  "description": "] [code]",
+                  "description": "Cheeun/DAQ-pytorch",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -1565,7 +1565,7 @@
                 {
                   "node_type": "item",
                   "title": "\"Fully Quantized Image Super-Resolution Networks\", ACM MM, 2021. [paper",
-                  "description": "] [code]",
+                  "description": "billhhh/FQSR",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -1593,7 +1593,7 @@
                 {
                   "node_type": "item",
                   "title": "\"BiPointNet: Binary Neural Network for Point Clouds\", ICLR, 2021. [paper",
-                  "description": "] [code] []",
+                  "description": "htqin/BiPointNet",
                   "children": [],
                   "repo_info": {
                     "archived": false,
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-02T23:58:15.268Z",
+    "last_updated": "2026-10-03T04:26:54.663Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
