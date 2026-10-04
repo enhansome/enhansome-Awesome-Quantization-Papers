@@ -53,9 +53,9 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ### Language Transformers
 
-* "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] \[[code](https://github.com/microsoft/DeepSpeed) ⭐ 43,173 | 🐛 1,491 | 🌐 Python | 📅 2026-10-03] \[**`PTQ`**]
-* "QLoRA: Efficient Finetuning of Quantized LLMs", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71815)] \[[code](https://github.com/artidoro/qlora) ⭐ 11,030 | 🐛 208 | 🌐 Jupyter Notebook | 📅 2024-06-10]
-* "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale", NeurIPS, 2022. \[[paper](https://arxiv.org/abs/2208.07339)] \[[code](https://github.com/timdettmers/bitsandbytes) ⭐ 8,510 | 🐛 94 | 🌐 Python | 📅 2026-09-07]
+* "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] \[[code](https://github.com/microsoft/DeepSpeed) ⭐ 43,194 | 🐛 1,495 | 🌐 Python | 📅 2026-10-04] \[**`PTQ`**]
+* "QLoRA: Efficient Finetuning of Quantized LLMs", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71815)] \[[code](https://github.com/artidoro/qlora) ⭐ 11,032 | 🐛 208 | 🌐 Jupyter Notebook | 📅 2024-06-10]
+* "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale", NeurIPS, 2022. \[[paper](https://arxiv.org/abs/2208.07339)] \[[code](https://github.com/timdettmers/bitsandbytes) ⭐ 8,512 | 🐛 94 | 🌐 Python | 📅 2026-09-07]
 * "BinaryBERT: Pushing the Limit of BERT Quantization", ACL, 2021. \[[paper](https://arxiv.org/abs/2012.15701)] \[[code](https://github.com/huawei-noah/Pretrained-Language-Model) ⭐ 3,168 | 🐛 109 | 🌐 Python | 📅 2024-01-22] \[**`Extreme`**]
 * "TernaryBERT: Distillation-aware Ultra-low Bit BERT", EMNLP, 2020. \[[paper](https://arxiv.org/abs/2009.12812)] \[[code](https://github.com/huawei-noah/Pretrained-Language-Model) ⭐ 3,168 | 🐛 109 | 🌐 Python | 📅 2024-01-22] \[**`Extreme`**]
 * "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers", ICLR, 2023. \[[papar](https://arxiv.org/abs/2210.17323)]  \[[code](https://github.com/IST-DASLab/gptq) ⭐ 2,381 | 🐛 27 | 🌐 Python | 📅 2024-03-27] \[**`PTQ`**]
@@ -168,7 +168,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 * "I-ViT: Integer-only Quantization for Efficient Vision Transformer Inference", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_I-ViT_Integer-only_Quantization_for_Efficient_Vision_Transformer_Inference_ICCV_2023_paper.pdf)] \[[code](https://github.com/zkkli/I-ViT) ⭐ 207 | 🐛 13 | 🌐 Python | 📅 2024-09-02]
 * "RepQ-ViT: Scale Reparameterization for Post-Training Quantization of Vision Transformers", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_RepQ-ViT_Scale_Reparameterization_for_Post-Training_Quantization_of_Vision_Transformers_ICCV_2023_paper.pdf)] \[[code](https://github.com/zkkli/RepQ-ViT) ⭐ 146 | 🐛 8 | 🌐 Python | 📅 2024-01-10] \[**`PTQ`**]
 * "Patch Similarity Aware Data-Free Quantization for Vision Transformers", ECCV, 2022. \[[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136710154.pdf)] \[[code](https://github.com/zkkli/psaq-vit) ⭐ 125 | 🐛 3 | 🌐 Python | 📅 2022-12-22]  \[**`PTQ`**]
-* "Q-ViT: Accurate and Fully Quantized Low-bit Vision Transformer", NeurIPS, 2022. \[[paper](https://openreview.net/forum?id=fU-m9kQe0ke)] \[[code](https://github.com/yanjingli0202/q-vit) ⭐ 107 | 🐛 14 | 🌐 Python | 📅 2023-05-22]
+* "Q-ViT: Accurate and Fully Quantized Low-bit Vision Transformer", NeurIPS, 2022. \[[paper](https://openreview.net/forum?id=fU-m9kQe0ke)] \[[code](https://github.com/yanjingli0202/q-vit) ⭐ 108 | 🐛 14 | 🌐 Python | 📅 2023-05-22]
 * "Oscillation-free Quantization for Low-bit Vision Transformers", ICML, 2023. \[[paper](https://openreview.net/forum?id=DihXH24AdY)] \[[code](https://github.com/nbasyl/OFQ) ⭐ 39 | 🐛 2 | 🌐 Python | 📅 2023-10-03]
 * "CLAMP-ViT: Contrastive Data-Free Learning for Adaptive Post-Training Quantization of ViTs", ECCV, 2024. \[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8434_ECCV_2024_paper.php)] \[**`PTQ`**]
 * "AdaLog: Post-Training Quantization for Vision Transformers with Adaptive Logarithm Quantizer", ECCV, 2024. \[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/3969_ECCV_2024_paper.php)]  \[**`PTQ`**]
@@ -393,4 +393,4 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-03._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-04._
