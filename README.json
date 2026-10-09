@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-07T23:59:34Z",
-                "open_issues": 1516,
+                "last_commit": "2026-10-08T23:39:51Z",
+                "open_issues": 1521,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43206,
+                "stars": 43209,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -56,7 +56,7 @@
                 "open_issues": 207,
                 "owner": "artidoro",
                 "repo": "qlora",
-                "stars": 11035,
+                "stars": 11036,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -74,7 +74,7 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-09-07T14:36:23Z",
-                "open_issues": 95,
+                "open_issues": 97,
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
                 "stars": 8514,
@@ -158,7 +158,7 @@
                 "open_issues": 27,
                 "owner": "IST-DASLab",
                 "repo": "gptq",
-                "stars": 2381,
+                "stars": 2383,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -179,7 +179,7 @@
                 "open_issues": 72,
                 "owner": "mit-han-lab",
                 "repo": "smoothquant",
-                "stars": 1694,
+                "stars": 1695,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -413,7 +413,7 @@
                 "open_issues": 19,
                 "owner": "hahnyuan",
                 "repo": "PTQ4ViT",
-                "stars": 245,
+                "stars": 246,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-08T00:22:16.973Z",
+    "last_updated": "2026-10-09T00:36:01.237Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
