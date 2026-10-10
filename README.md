@@ -53,13 +53,13 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ### Language Transformers
 
-* "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] \[[code](https://github.com/microsoft/DeepSpeed) ⭐ 43,215 | 🐛 1,528 | 🌐 Python | 📅 2026-10-09] \[**`PTQ`**]
-* "QLoRA: Efficient Finetuning of Quantized LLMs", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71815)] \[[code](https://github.com/artidoro/qlora) ⭐ 11,039 | 🐛 207 | 🌐 Jupyter Notebook | 📅 2024-06-10]
-* "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale", NeurIPS, 2022. \[[paper](https://arxiv.org/abs/2208.07339)] \[[code](https://github.com/timdettmers/bitsandbytes) ⭐ 8,516 | 🐛 97 | 🌐 Python | 📅 2026-09-07]
+* "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] \[[code](https://github.com/microsoft/DeepSpeed) ⭐ 43,217 | 🐛 1,522 | 🌐 Python | 📅 2026-10-10] \[**`PTQ`**]
+* "QLoRA: Efficient Finetuning of Quantized LLMs", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71815)] \[[code](https://github.com/artidoro/qlora) ⭐ 11,044 | 🐛 207 | 🌐 Jupyter Notebook | 📅 2024-06-10]
+* "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale", NeurIPS, 2022. \[[paper](https://arxiv.org/abs/2208.07339)] \[[code](https://github.com/timdettmers/bitsandbytes) ⭐ 8,518 | 🐛 97 | 🌐 Python | 📅 2026-09-07]
 * "BinaryBERT: Pushing the Limit of BERT Quantization", ACL, 2021. \[[paper](https://arxiv.org/abs/2012.15701)] \[[code](https://github.com/huawei-noah/Pretrained-Language-Model) ⭐ 3,165 | 🐛 109 | 🌐 Python | 📅 2024-01-22] \[**`Extreme`**]
 * "TernaryBERT: Distillation-aware Ultra-low Bit BERT", EMNLP, 2020. \[[paper](https://arxiv.org/abs/2009.12812)] \[[code](https://github.com/huawei-noah/Pretrained-Language-Model) ⭐ 3,165 | 🐛 109 | 🌐 Python | 📅 2024-01-22] \[**`Extreme`**]
 * "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers", ICLR, 2023. \[[papar](https://arxiv.org/abs/2210.17323)]  \[[code](https://github.com/IST-DASLab/gptq) ⭐ 2,384 | 🐛 27 | 🌐 Python | 📅 2024-03-27] \[**`PTQ`**]
-* "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models", ICML, 2023. \[[paper](https://arxiv.org/abs/2211.10438)] \[[code](https://github.com/mit-han-lab/smoothquant) ⭐ 1,696 | 🐛 72 | 🌐 Python | 📅 2024-07-12] \[**`PTQ`**]
+* "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models", ICML, 2023. \[[paper](https://arxiv.org/abs/2211.10438)] \[[code](https://github.com/mit-han-lab/smoothquant) ⭐ 1,697 | 🐛 72 | 🌐 Python | 📅 2024-07-12] \[**`PTQ`**]
 * "I-BERT: Integer-only BERT Quantization", ICML, 2021. \[[paper](https://proceedings.mlr.press/v139/kim21d.html)] \[[code](https://github.com/kssteven418/I-BERT) ⭐ 271 | 🐛 29 | 🌐 Python | 📅 2023-01-29]
 * "Understanding and Overcoming the Challenges of Efficient Transformer Quantization", EMNLP, 2021. \[[paper](https://arxiv.org/abs/2109.12948)] \[[code](https://github.com/qualcomm-ai-research/transformer-quantization) ⭐ 213 | 🐛 2 | 🌐 Python | 📅 2021-11-09]
 * "RPTQ: Reorder-based Post-training Quantization for Large Language Models", arXiv, 2023. \[[paper](https://arxiv.org/abs/2304.01089)] \[[code](https://github.com/hahnyuan/rptq4llm) ⭐ 201 | 🐛 7 | 🌐 Python | 📅 2023-05-17] \[**`PTQ`**]
@@ -210,7 +210,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ### Visual Generation
 
-* "Q-diffusion: Quantizing Diffusion Models", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)] \[[code](https://github.com/Xiuyu-Li/q-diffusion) ⭐ 381 | 🐛 24 | 🌐 Python | 📅 2024-03-21] \[**`PTQ`**]
+* "Q-diffusion: Quantizing Diffusion Models", ICCV, 2023. \[[paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Q-Diffusion_Quantizing_Diffusion_Models_ICCV_2023_paper.pdf)] \[[code](https://github.com/Xiuyu-Li/q-diffusion) ⭐ 382 | 🐛 24 | 🌐 Python | 📅 2024-03-21] \[**`PTQ`**]
 * "BiDM: Pushing the Limit of Quantization for Diffusion Models", NeurIPS, 2024. \[[paper](https://nips.cc/virtual/2024/poster/93620)]
 * "BitsFusion: 1.99 bits Weight Quantization of Diffusion Model", NeurIPS, 2024. \[[paper](https://nips.cc/virtual/2024/poster/96909)]
 * "Timestep-Aware Correction for Quantized Diffusion Models", ECCV, 2024. \[[paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8312_ECCV_2024_paper.php)]
@@ -388,7 +388,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 * Online Resources:
   * [MQBench (Benchmark)](http://mqbench.tech/)
-  * [Awesome Model Quantization (GitHub)](https://github.com/htqin/awesome-model-quantization) ⭐ 2,453 | 🐛 0 | 📅 2026-10-05
+  * [Awesome Model Quantization (GitHub)](https://github.com/htqin/awesome-model-quantization) ⭐ 2,454 | 🐛 0 | 📅 2026-10-05
   * [Awesome Transformer Attention (GitHub)](https://github.com/cmhungsteve/Awesome-Transformer-Attention) ⭐ 5,043 | 🐛 23 | 📅 2024-07-30
 
 ***
