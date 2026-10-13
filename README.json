@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-13T01:45:17Z",
-                "open_issues": 1517,
+                "last_commit": "2026-10-13T23:32:48Z",
+                "open_issues": 1524,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43225,
+                "stars": 43229,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -77,7 +77,7 @@
                 "open_issues": 97,
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
-                "stars": 8523,
+                "stars": 8525,
                 "topics": [
                   "llm",
                   "machine-learning",
@@ -104,7 +104,7 @@
                 "open_issues": 109,
                 "owner": "huawei-noah",
                 "repo": "Pretrained-Language-Model",
-                "stars": 3165,
+                "stars": 3166,
                 "topics": [
                   "knowledge-distillation",
                   "large-scale-distributed",
@@ -131,7 +131,7 @@
                 "open_issues": 109,
                 "owner": "huawei-noah",
                 "repo": "Pretrained-Language-Model",
-                "stars": 3165,
+                "stars": 3166,
                 "topics": [
                   "knowledge-distillation",
                   "large-scale-distributed",
@@ -679,7 +679,7 @@
                 "open_issues": 28,
                 "owner": "yhhhli",
                 "repo": "BRECQ",
-                "stars": 303,
+                "stars": 304,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -801,6 +801,27 @@
             },
             {
               "node_type": "item",
+              "title": "\"Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning\", NeurIPS, 2022. [paper",
+              "description": "IST-DASLab/OBC",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Code for the NeurIPS 2022 paper \"Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning\".",
+                "homepage": "https://arxiv.org/abs/2208.11580",
+                "id": 550219217,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2023-07-11T15:48:56Z",
+                "open_issues": 3,
+                "owner": "IST-DASLab",
+                "repo": "OBC",
+                "stars": 136,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T04:27:06.705Z"
+            },
+            {
+              "node_type": "item",
               "title": "\"QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization\", ICLR, 2022. [paper",
               "description": "wimh966/QDrop",
               "children": [],
@@ -816,27 +837,6 @@
                 "owner": "wimh966",
                 "repo": "QDrop",
                 "stars": 136,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T04:27:06.705Z"
-            },
-            {
-              "node_type": "item",
-              "title": "\"Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning\", NeurIPS, 2022. [paper",
-              "description": "IST-DASLab/OBC",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Code for the NeurIPS 2022 paper \"Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning\".",
-                "homepage": "https://arxiv.org/abs/2208.11580",
-                "id": 550219217,
-                "language": "Python",
-                "license": null,
-                "last_commit": "2023-07-11T15:48:56Z",
-                "open_issues": 3,
-                "owner": "IST-DASLab",
-                "repo": "OBC",
-                "stars": 135,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-13T02:12:57.206Z",
+    "last_updated": "2026-10-13T23:50:02.121Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
