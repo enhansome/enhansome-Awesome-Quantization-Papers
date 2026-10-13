@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-11T23:54:18Z",
-                "open_issues": 1519,
+                "last_commit": "2026-10-13T01:45:17Z",
+                "open_issues": 1517,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43217,
+                "stars": 43225,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -77,7 +77,7 @@
                 "open_issues": 97,
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
-                "stars": 8519,
+                "stars": 8523,
                 "topics": [
                   "llm",
                   "machine-learning",
@@ -158,7 +158,7 @@
                 "open_issues": 27,
                 "owner": "IST-DASLab",
                 "repo": "gptq",
-                "stars": 2384,
+                "stars": 2385,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -176,7 +176,7 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2024-07-12T03:11:08Z",
-                "open_issues": 72,
+                "open_issues": 73,
                 "owner": "mit-han-lab",
                 "repo": "smoothquant",
                 "stars": 1697,
@@ -618,7 +618,7 @@
                 "open_issues": 26,
                 "owner": "Zhen-Dong",
                 "repo": "HAWQ",
-                "stars": 464,
+                "stars": 465,
                 "topics": [
                   "4-bit",
                   "8-bit",
@@ -679,7 +679,7 @@
                 "open_issues": 28,
                 "owner": "yhhhli",
                 "repo": "BRECQ",
-                "stars": 302,
+                "stars": 303,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -801,27 +801,6 @@
             },
             {
               "node_type": "item",
-              "title": "\"Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning\", NeurIPS, 2022. [paper",
-              "description": "IST-DASLab/OBC",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Code for the NeurIPS 2022 paper \"Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning\".",
-                "homepage": "https://arxiv.org/abs/2208.11580",
-                "id": 550219217,
-                "language": "Python",
-                "license": null,
-                "last_commit": "2023-07-11T15:48:56Z",
-                "open_issues": 3,
-                "owner": "IST-DASLab",
-                "repo": "OBC",
-                "stars": 135,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T04:27:06.705Z"
-            },
-            {
-              "node_type": "item",
               "title": "\"QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization\", ICLR, 2022. [paper",
               "description": "wimh966/QDrop",
               "children": [],
@@ -836,6 +815,27 @@
                 "open_issues": 0,
                 "owner": "wimh966",
                 "repo": "QDrop",
+                "stars": 136,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T04:27:06.705Z"
+            },
+            {
+              "node_type": "item",
+              "title": "\"Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning\", NeurIPS, 2022. [paper",
+              "description": "IST-DASLab/OBC",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Code for the NeurIPS 2022 paper \"Optimal Brain Compression: A Framework for Accurate Post-Training Quantization and Pruning\".",
+                "homepage": "https://arxiv.org/abs/2208.11580",
+                "id": 550219217,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2023-07-11T15:48:56Z",
+                "open_issues": 3,
+                "owner": "IST-DASLab",
+                "repo": "OBC",
                 "stars": 135,
                 "topics": []
               },
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-11T23:55:09.187Z",
+    "last_updated": "2026-10-13T02:12:57.206Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
