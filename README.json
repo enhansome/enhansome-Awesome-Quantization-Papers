@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-22T21:40:41Z",
-                "open_issues": 1551,
+                "last_commit": "2026-10-23T18:06:02Z",
+                "open_issues": 1554,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43253,
+                "stars": 43261,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -74,7 +74,7 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-10-19T14:35:27Z",
-                "open_issues": 101,
+                "open_issues": 102,
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
                 "stars": 8528,
@@ -158,7 +158,7 @@
                 "open_issues": 27,
                 "owner": "IST-DASLab",
                 "repo": "gptq",
-                "stars": 2387,
+                "stars": 2388,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -794,7 +794,7 @@
                 "open_issues": 6,
                 "owner": "liuzechun",
                 "repo": "Nonuniform-to-Uniform-Quantization",
-                "stars": 140,
+                "stars": 141,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-22T23:32:19.385Z",
+    "last_updated": "2026-10-23T23:25:53.138Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
