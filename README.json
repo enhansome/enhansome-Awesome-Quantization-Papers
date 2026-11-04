@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-02T19:45:16Z",
-                "open_issues": 1605,
+                "last_commit": "2026-11-04T00:43:31Z",
+                "open_issues": 1613,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43284,
+                "stars": 43290,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -56,7 +56,7 @@
                 "open_issues": 207,
                 "owner": "artidoro",
                 "repo": "qlora",
-                "stars": 11065,
+                "stars": 11064,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -77,7 +77,7 @@
                 "open_issues": 116,
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
-                "stars": 8535,
+                "stars": 8538,
                 "topics": [
                   "llm",
                   "machine-learning",
@@ -104,7 +104,7 @@
                 "open_issues": 109,
                 "owner": "huawei-noah",
                 "repo": "Pretrained-Language-Model",
-                "stars": 3169,
+                "stars": 3170,
                 "topics": [
                   "knowledge-distillation",
                   "large-scale-distributed",
@@ -131,7 +131,7 @@
                 "open_issues": 109,
                 "owner": "huawei-noah",
                 "repo": "Pretrained-Language-Model",
-                "stars": 3169,
+                "stars": 3170,
                 "topics": [
                   "knowledge-distillation",
                   "large-scale-distributed",
@@ -597,7 +597,7 @@
                 "open_issues": 12,
                 "owner": "facebookresearch",
                 "repo": "bitsandbytes",
-                "stars": 777,
+                "stars": 776,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -1461,7 +1461,7 @@
                     "open_issues": 28,
                     "owner": "huawei-noah",
                     "repo": "Efficient-Computing",
-                    "stars": 1306,
+                    "stars": 1305,
                     "topics": [
                       "binary-neural-networks",
                       "knowledge-distillation",
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-03T02:36:34.886Z",
+    "last_updated": "2026-11-04T00:50:16.755Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
