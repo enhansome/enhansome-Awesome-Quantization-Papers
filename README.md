@@ -53,18 +53,18 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 ### Language Transformers
 
-* "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] \[[code](https://github.com/microsoft/DeepSpeed) ⭐ 43,326 | 🐛 1,594 | 🌐 Python | 📅 2026-11-15] \[**`PTQ`**]
-* "QLoRA: Efficient Finetuning of Quantized LLMs", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71815)] \[[code](https://github.com/artidoro/qlora) ⭐ 11,067 | 🐛 208 | 🌐 Jupyter Notebook | 📅 2024-06-10]
-* "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale", NeurIPS, 2022. \[[paper](https://arxiv.org/abs/2208.07339)] \[[code](https://github.com/timdettmers/bitsandbytes) ⭐ 8,541 | 🐛 135 | 🌐 Python | 📅 2026-11-02]
-* "BinaryBERT: Pushing the Limit of BERT Quantization", ACL, 2021. \[[paper](https://arxiv.org/abs/2012.15701)] \[[code](https://github.com/huawei-noah/Pretrained-Language-Model) ⭐ 3,169 | 🐛 108 | 🌐 Python | 📅 2024-01-22] \[**`Extreme`**]
-* "TernaryBERT: Distillation-aware Ultra-low Bit BERT", EMNLP, 2020. \[[paper](https://arxiv.org/abs/2009.12812)] \[[code](https://github.com/huawei-noah/Pretrained-Language-Model) ⭐ 3,169 | 🐛 108 | 🌐 Python | 📅 2024-01-22] \[**`Extreme`**]
+* "ZeroQuant: Efficient and Affordable Post-Training Quantization for Large-Scale Transformers", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=54407)] \[[code](https://github.com/microsoft/DeepSpeed) ⭐ 43,330 | 🐛 1,597 | 🌐 Python | 📅 2026-11-17] \[**`PTQ`**]
+* "QLoRA: Efficient Finetuning of Quantized LLMs", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/71815)] \[[code](https://github.com/artidoro/qlora) ⭐ 11,069 | 🐛 208 | 🌐 Jupyter Notebook | 📅 2024-06-10]
+* "LLM.int8(): 8-bit Matrix Multiplication for Transformers at Scale", NeurIPS, 2022. \[[paper](https://arxiv.org/abs/2208.07339)] \[[code](https://github.com/timdettmers/bitsandbytes) ⭐ 8,543 | 🐛 136 | 🌐 Python | 📅 2026-11-02]
+* "BinaryBERT: Pushing the Limit of BERT Quantization", ACL, 2021. \[[paper](https://arxiv.org/abs/2012.15701)] \[[code](https://github.com/huawei-noah/Pretrained-Language-Model) ⭐ 3,168 | 🐛 108 | 🌐 Python | 📅 2024-01-22] \[**`Extreme`**]
+* "TernaryBERT: Distillation-aware Ultra-low Bit BERT", EMNLP, 2020. \[[paper](https://arxiv.org/abs/2009.12812)] \[[code](https://github.com/huawei-noah/Pretrained-Language-Model) ⭐ 3,168 | 🐛 108 | 🌐 Python | 📅 2024-01-22] \[**`Extreme`**]
 * "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers", ICLR, 2023. \[[papar](https://arxiv.org/abs/2210.17323)]  \[[code](https://github.com/IST-DASLab/gptq) ⭐ 2,402 | 🐛 27 | 🌐 Python | 📅 2024-03-27] \[**`PTQ`**]
-* "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models", ICML, 2023. \[[paper](https://arxiv.org/abs/2211.10438)] \[[code](https://github.com/mit-han-lab/smoothquant) ⭐ 1,704 | 🐛 74 | 🌐 Python | 📅 2024-07-12] \[**`PTQ`**]
+* "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models", ICML, 2023. \[[paper](https://arxiv.org/abs/2211.10438)] \[[code](https://github.com/mit-han-lab/smoothquant) ⭐ 1,705 | 🐛 74 | 🌐 Python | 📅 2024-07-12] \[**`PTQ`**]
 * "I-BERT: Integer-only BERT Quantization", ICML, 2021. \[[paper](https://proceedings.mlr.press/v139/kim21d.html)] \[[code](https://github.com/kssteven418/I-BERT) ⭐ 271 | 🐛 29 | 🌐 Python | 📅 2023-01-29]
 * "Understanding and Overcoming the Challenges of Efficient Transformer Quantization", EMNLP, 2021. \[[paper](https://arxiv.org/abs/2109.12948)] \[[code](https://github.com/qualcomm-ai-research/transformer-quantization) ⭐ 213 | 🐛 2 | 🌐 Python | 📅 2021-11-09]
 * "RPTQ: Reorder-based Post-training Quantization for Large Language Models", arXiv, 2023. \[[paper](https://arxiv.org/abs/2304.01089)] \[[code](https://github.com/hahnyuan/rptq4llm) ⭐ 201 | 🐛 7 | 🌐 Python | 📅 2023-05-17] \[**`PTQ`**]
-* "BiT: Robustly Binarized Multi-distilled Transformer", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=55032)] \[[code](https://github.com/facebookresearch/bit) ⭐ 114 | 🐛 6 | 🌐 Python | 📅 2023-06-26] \[**`Extreme`**]
-* "BiBERT: Accurate Fully Binarized BERT", ICLR, 2022. \[[paper](https://openreview.net/forum?id=5xEgrl_5FAJ)] \[[code](https://github.com/htqin/BiBERT) ⭐ 89 | 🐛 3 | 🌐 Python | 📅 2026-09-11] \[**`Extreme`**]
+* "BiT: Robustly Binarized Multi-distilled Transformer", NeurIPS, 2022. \[[paper](https://nips.cc/Conferences/2022/Schedule?showEvent=55032)] \[[code](https://github.com/facebookresearch/bit) ⭐ 113 | 🐛 6 | 🌐 Python | 📅 2023-06-26] \[**`Extreme`**]
+* "BiBERT: Accurate Fully Binarized BERT", ICLR, 2022. \[[paper](https://openreview.net/forum?id=5xEgrl_5FAJ)] \[[code](https://github.com/htqin/BiBERT) ⭐ 88 | 🐛 3 | 🌐 Python | 📅 2026-09-11] \[**`Extreme`**]
 * "Outlier Suppression: Pushing the Limit of Low-bit Transformer Language Models", NeurIPS, 2022. [\[paper\]](https://arxiv.org/abs/2209.13325) \[[code](https://github.com/wimh966/outlier_suppression) ⭐ 50 | 🐛 0 | 🌐 Python | 📅 2022-10-05] \[**`PTQ`**]
 * "QIGen: Generating Efficient Kernels for Quantized Inference on Large Language Models", arXiv, 2023. \[[paper](https://arxiv.org/abs/2307.03738)] \[[code](https://github.com/IST-DASLab/QIGen) ⭐ 29 | 🐛 0 | 🌐 Python | 📅 2023-07-13]
 * "QuIP: 2-Bit Quantization of Large Language Models With Guarantees", NeurIPS, 2023. \[[paper](https://neurips.cc/virtual/2023/poster/69982)] \[[code](https://github.com/jerry-chee/QuIP) ⭐ 3 | 🐛 0 | 📅 2023-12-10] \[**`PTQ`**]
@@ -248,7 +248,7 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 * "QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization", ICLR, 2022. \[[paper](https://openreview.net/forum?id=ySQH0oDyp7)] \[[code](https://github.com/wimh966/QDrop) ⭐ 136 | 🐛 0 | 🌐 Python | 📅 2025-09-23]  \[**`PTQ`**]
 * "SQuant: On-the-Fly Data-Free Quantization via Diagonal Hessian Approximation", ICLR, 2022. \[[paper](https://openreview.net/forum?id=JXhROKNZzOc)] \[[code](https://github.com/clevercool/SQuant) ⭐ 130 | 🐛 1 | 🌐 Python | 📅 2022-09-27]  \[**`PTQ`**]
 * "Network Quantization with Element-wise Gradient Scaling", CVPR, 2021. \[[paper](https://arxiv.org/abs/2104.00903)] \[[code](https://github.com/cvlab-yonsei/EWGS) ⭐ 97 | 🐛 7 | 🌐 Python | 📅 2023-07-14]
-* "Overcoming Oscillations in Quantization-Aware Training", ICML, 2022. \[[paper](https://proceedings.mlr.press/v162/nagel22a/nagel22a.pdf)] \[[code](https://github.com/qualcomm-ai-research/oscillations-qat) ⭐ 82 | 🐛 5 | 🌐 Python | 📅 2022-07-21]
+* "Overcoming Oscillations in Quantization-Aware Training", ICML, 2022. \[[paper](https://proceedings.mlr.press/v162/nagel22a/nagel22a.pdf)] \[[code](https://github.com/qualcomm-ai-research/oscillations-qat) ⭐ 81 | 🐛 5 | 🌐 Python | 📅 2022-07-21]
 * "Mixed-Precision Neural Network Quantization via Learned Layer-Wise Importance", ECCV, 2022. \[[paper](https://arxiv.org/abs/2203.08368)] \[[Code](https://github.com/1hunters/LIMPQ) ⭐ 63 | 🐛 3 | 🌐 Python | 📅 2023-03-19] \[[code](https://github.com/1hunters/LIMPQ) ⭐ 63 | 🐛 3 | 🌐 Python | 📅 2023-03-19] \[**`MP`**]
 * "How Do Adam and Training Strategies Help BNNs Optimization?", ICML, 2021. \[[paper](http://proceedings.mlr.press/v139/liu21t/liu21t.pdf)] \[[code](https://github.com/liuzechun/AdamBNN) ⭐ 59 | 🐛 5 | 🌐 Python | 📅 2021-06-23]
 * "Multi-Prize Lottery Ticket Hypothesis: Finding Accurate Binary Neural Networks by Pruning A Randomly Weighted Network", ICLR, 2021. \[[paper](https://openreview.net/forum?id=U_mat0b9iv)] \[[code](https://github.com/chrundle/biprop) ⭐ 51 | 🐛 2 | 🌐 Python | 📅 2022-02-24] \[**`Extreme`**]
@@ -388,9 +388,9 @@ If you find this repo useful, please consider **★STARing** and feel free to sh
 
 * Online Resources:
   * [MQBench (Benchmark)](http://mqbench.tech/)
-  * [Awesome Model Quantization (GitHub)](https://github.com/htqin/awesome-model-quantization) ⭐ 2,469 | 🐛 5 | 📅 2026-10-26
+  * [Awesome Model Quantization (GitHub)](https://github.com/htqin/awesome-model-quantization) ⭐ 2,470 | 🐛 5 | 📅 2026-11-16
   * [Awesome Transformer Attention (GitHub)](https://github.com/cmhungsteve/Awesome-Transformer-Attention) ⭐ 5,047 | 🐛 24 | 📅 2024-07-30
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-16._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-17._
