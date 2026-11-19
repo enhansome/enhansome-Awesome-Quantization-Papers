@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-18T02:06:44Z",
-                "open_issues": 1598,
+                "last_commit": "2026-11-18T22:40:39Z",
+                "open_issues": 1601,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43336,
+                "stars": 43339,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -74,10 +74,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-11-02T14:36:37Z",
-                "open_issues": 137,
+                "open_issues": 140,
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
-                "stars": 8544,
+                "stars": 8545,
                 "topics": [
                   "llm",
                   "machine-learning",
@@ -455,7 +455,7 @@
                 "open_issues": 8,
                 "owner": "zkkli",
                 "repo": "RepQ-ViT",
-                "stars": 146,
+                "stars": 147,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -653,7 +653,7 @@
                 "open_issues": 19,
                 "owner": "mit-han-lab",
                 "repo": "haq",
-                "stars": 411,
+                "stars": 412,
                 "topics": [
                   "automl",
                   "efficient-model",
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-18T02:33:34.926Z",
+    "last_updated": "2026-11-19T01:58:27.966Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
