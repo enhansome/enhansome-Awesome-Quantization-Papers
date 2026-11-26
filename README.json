@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-25T01:46:28Z",
-                "open_issues": 1596,
+                "last_commit": "2026-11-26T02:29:50Z",
+                "open_issues": 1597,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43360,
+                "stars": 43361,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -56,7 +56,7 @@
                 "open_issues": 208,
                 "owner": "artidoro",
                 "repo": "qlora",
-                "stars": 11074,
+                "stars": 11073,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -73,8 +73,8 @@
                 "id": 373674258,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-11-25T00:13:26Z",
-                "open_issues": 142,
+                "last_commit": "2026-11-25T22:22:41Z",
+                "open_issues": 128,
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
                 "stars": 8550,
@@ -561,7 +561,7 @@
                 "open_issues": 24,
                 "owner": "Xiuyu-Li",
                 "repo": "q-diffusion",
-                "stars": 381,
+                "stars": 382,
                 "topics": [
                   "ddim",
                   "diffusion-models",
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-25T03:42:20.248Z",
+    "last_updated": "2026-11-26T03:01:24.876Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
