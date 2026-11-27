@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-26T02:29:50Z",
-                "open_issues": 1597,
+                "last_commit": "2026-11-27T00:32:19Z",
+                "open_issues": 1584,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43361,
+                "stars": 43366,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -53,10 +53,10 @@
                 "language": "Jupyter Notebook",
                 "license": "MIT",
                 "last_commit": "2024-06-10T19:20:16Z",
-                "open_issues": 208,
+                "open_issues": 210,
                 "owner": "artidoro",
                 "repo": "qlora",
-                "stars": 11073,
+                "stars": 11074,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -74,10 +74,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-11-25T22:22:41Z",
-                "open_issues": 128,
+                "open_issues": 129,
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
-                "stars": 8550,
+                "stars": 8555,
                 "topics": [
                   "llm",
                   "machine-learning",
@@ -679,7 +679,7 @@
                 "open_issues": 28,
                 "owner": "yhhhli",
                 "repo": "BRECQ",
-                "stars": 305,
+                "stars": 306,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-26T03:01:24.876Z",
+    "last_updated": "2026-11-27T03:11:56.101Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
