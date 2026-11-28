@@ -17,11 +17,11 @@
                 "id": 235860204,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-27T00:32:19Z",
-                "open_issues": 1584,
+                "last_commit": "2026-11-28T01:55:10Z",
+                "open_issues": 1588,
                 "owner": "deepspeedai",
                 "repo": "DeepSpeed",
-                "stars": 43366,
+                "stars": 43369,
                 "topics": [
                   "billion-parameters",
                   "compression",
@@ -56,7 +56,7 @@
                 "open_issues": 210,
                 "owner": "artidoro",
                 "repo": "qlora",
-                "stars": 11074,
+                "stars": 11075,
                 "topics": []
               },
               "first_seen": "2026-08-28T04:27:06.705Z"
@@ -73,11 +73,11 @@
                 "id": 373674258,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-11-25T22:22:41Z",
-                "open_issues": 129,
+                "last_commit": "2026-11-27T20:30:20Z",
+                "open_issues": 128,
                 "owner": "bitsandbytes-foundation",
                 "repo": "bitsandbytes",
-                "stars": 8555,
+                "stars": 8557,
                 "topics": [
                   "llm",
                   "machine-learning",
@@ -104,7 +104,7 @@
                 "open_issues": 108,
                 "owner": "huawei-noah",
                 "repo": "Pretrained-Language-Model",
-                "stars": 3166,
+                "stars": 3167,
                 "topics": [
                   "knowledge-distillation",
                   "large-scale-distributed",
@@ -131,7 +131,7 @@
                 "open_issues": 108,
                 "owner": "huawei-noah",
                 "repo": "Pretrained-Language-Model",
-                "stars": 3166,
+                "stars": 3167,
                 "topics": [
                   "knowledge-distillation",
                   "large-scale-distributed",
@@ -676,7 +676,7 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2021-08-01T05:35:52Z",
-                "open_issues": 28,
+                "open_issues": 29,
                 "owner": "yhhhli",
                 "repo": "BRECQ",
                 "stars": 306,
@@ -812,7 +812,7 @@
                 "language": "Python",
                 "license": null,
                 "last_commit": "2023-07-11T15:48:56Z",
-                "open_issues": 3,
+                "open_issues": 4,
                 "owner": "IST-DASLab",
                 "repo": "OBC",
                 "stars": 136,
@@ -1630,7 +1630,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-27T03:11:56.101Z",
+    "last_updated": "2026-11-28T02:55:36.519Z",
     "original_repository_info": {
       "archived": false,
       "description": "List of papers related to neural network quantization in recent AI conferences and journals.",
